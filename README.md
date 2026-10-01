@@ -16,6 +16,8 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
   it plays on its own. **Turn SM64Lua's swim button off** for it.
 - **Bowser Stage** and **Throws** are one movie (`bowser_stage.m64`): the stage, then the fight.
 - The Son of Whomp King (Toriku) is not here yet.
+- `castle-movement/`: level re-entries. Timed from the first frame of control after the exit to the painting entry.
+  `sky kingdom re-enter.m64` does not reach the painting on playback (Mario idles after a dialog at the exit).
 
 ## Stars
 
