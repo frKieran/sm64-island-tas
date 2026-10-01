@@ -15,6 +15,8 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
   button on and desyncs without it. This copy has those A presses (22 samples, 592-662) written into the inputs, so
   it plays on its own. **Turn SM64Lua's swim button off** for it.
 - **Bowser Stage** and **Throws** are one movie (`bowser_stage.m64`): the stage, then the fight.
+  `bowser_stage.throws.36_27.m64` is the same stage with the faster fight. Throws is timed from SM64Lua's timer
+  restart on the arena fade-in to the frame Mario enters DISAPPEARED from the Grand Star warp.
 - The Son of Whomp King (Toriku) is not here yet.
 - `castle-movement/`: level re-entries. Timed from the first frame of control after the exit to the painting entry.
   `sky kingdom re-enter.m64` does not reach the painting on playback (Mario idles after a dialog at the exit).
@@ -23,7 +25,7 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
 
 | Star | Time | .m64 | .st |
 |---|---|---|---|
-| Big Bob-Omb Fight Back | 41.37 | [bom_course1.king.41_37.m64](1-bob-omb-mountain/bom_course1.king.41_37.m64) | [bom_course1.st](1-bob-omb-mountain/bom_course1.st) |
+| Big Bob-Omb Fight Back | 38.27 | [bom_course1.king.38_27.m64](1-bob-omb-mountain/bom_course1.king.38_27.m64) | [bom_course1.st](1-bob-omb-mountain/bom_course1.st) |
 | Hide in the Mountain | 14.6 | [star5.mountain.14_60.m64](1-bob-omb-mountain/star5.mountain.14_60.m64) | [star5.st](1-bob-omb-mountain/star5.st) |
 | Climb the House | 6.13 | [bom_course1.climb.6_13.m64](1-bob-omb-mountain/bom_course1.climb.6_13.m64) | [bom_course1.st](1-bob-omb-mountain/bom_course1.st) |
 | Fly with Fly Guy | 18.13 | [star5.flyguy.18_13.m64](1-bob-omb-mountain/star5.flyguy.18_13.m64) | [star5.st](1-bob-omb-mountain/star5.st) |
@@ -49,4 +51,4 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
 | Red Coins | 22.6 | [secretarea.reds.22_60.m64](secret-area/secretarea.reds.22_60.m64) | [secretarea.st](secret-area/secretarea.st) |
 | Parkour | 9.97 | [secretarea1.box.9_97.m64](secret-area/secretarea1.box.9_97.m64) | [secretarea1.st](secret-area/secretarea1.st) |
 | Bowser Stage |  | [bowser_stage.m64](battle-of-the-hope/bowser_stage.m64) | [bowser_stage.st](battle-of-the-hope/bowser_stage.st) |
-| Throws |  | [bowser_stage.m64](battle-of-the-hope/bowser_stage.m64) | [bowser_stage.st](battle-of-the-hope/bowser_stage.st) |
+| Throws | 36.27 | [bowser_stage.throws.36_27.m64](battle-of-the-hope/bowser_stage.throws.36_27.m64) | [bowser_stage.st](battle-of-the-hope/bowser_stage.st) |
