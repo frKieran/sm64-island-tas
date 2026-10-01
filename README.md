@@ -46,7 +46,7 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
 | Hide in the 4th Platform | 16.27 | [wjt_course4_1.hide_in_the_4th_platform.pipe1_fastLJ2_kick4exit_clip.3f_faster.m64](4-walljump-training/wjt_course4_1.hide_in_the_4th_platform.pipe1_fastLJ2_kick4exit_clip.3f_faster.m64) | [wjt_course4_1.st](4-walljump-training/wjt_course4_1.st) |
 | Hide in the 3rd Platform | 19.3 | [wjt_course4_1.hide_in_the_3rd_platform.pipe1_fastLJ2_kick4exit_clip.3f_faster.m64](4-walljump-training/wjt_course4_1.hide_in_the_3rd_platform.pipe1_fastLJ2_kick4exit_clip.3f_faster.m64) | [wjt_course4_1.st](4-walljump-training/wjt_course4_1.st) |
 | You Already Know Red Coins + 100c | 64.73 | [course4_100c.pipe1_diverollout_terraceDJ_reds34_638.11f_faster.3fend.m64](4-walljump-training/course4_100c.pipe1_diverollout_terraceDJ_reds34_638.11f_faster.3fend.m64) | [course4_100c.st](4-walljump-training/course4_100c.st) |
-| Red Coins | 22.77 | [secretarea.reds.22_77.m64](secret-area/secretarea.reds.22_77.m64) | [secretarea.st](secret-area/secretarea.st) |
+| Red Coins | 22.6 | [secretarea.reds.22_60.m64](secret-area/secretarea.reds.22_60.m64) | [secretarea.st](secret-area/secretarea.st) |
 | Parkour | 9.97 | [secretarea1.box.9_97.m64](secret-area/secretarea1.box.9_97.m64) | [secretarea1.st](secret-area/secretarea1.st) |
 | Bowser Stage |  | [bowser_stage.m64](battle-of-the-hope/bowser_stage.m64) | [bowser_stage.st](battle-of-the-hope/bowser_stage.st) |
 | Throws |  | [bowser_stage.m64](battle-of-the-hope/bowser_stage.m64) | [bowser_stage.st](battle-of-the-hope/bowser_stage.st) |
