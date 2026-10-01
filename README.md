@@ -15,9 +15,9 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
   button on and desyncs without it. This copy has those A presses (22 samples, 592-662) written into the inputs, so
   it plays on its own. **Turn SM64Lua's swim button off** for it.
 - **Bowser Stage** and **Throws** are one movie (`bowser_stage.m64`): the stage, then the fight.
-  `bowser_stage.throws.36_27.m64` is the same stage with the faster fight. `bowser_stage.12_80.m64` has both the
+  `bowser_stage.throws.36_27.m64` is the same stage with the faster fight. `bowser_stage.12_10.m64` has both the
   faster stage (no extra idle frame) and the faster fight. Bowser Stage is timed from SM64Lua's timer start to the
-  frame Mario enters DISAPPEARED in the pipe; Throws from the timer's restart on the arena fade-in to the frame
+  first frame Mario's action is DISAPPEARED (entering the pipe, not the later level change); Throws from the timer's restart on the arena fade-in to the frame
   Mario enters DISAPPEARED from the Grand Star warp.
 - The Son of Whomp King (Toriku) is not here yet.
 - `castle-movement/`: level re-entries. Timed from the first frame of control after the exit to the painting entry.
@@ -52,5 +52,5 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
 | You Already Know Red Coins + 100c | 64.73 | [course4_100c.pipe1_diverollout_terraceDJ_reds34_638.11f_faster.3fend.m64](4-walljump-training/course4_100c.pipe1_diverollout_terraceDJ_reds34_638.11f_faster.3fend.m64) | [course4_100c.st](4-walljump-training/course4_100c.st) |
 | Red Coins | 22.6 | [secretarea.reds.22_60.m64](secret-area/secretarea.reds.22_60.m64) | [secretarea.st](secret-area/secretarea.st) |
 | Parkour | 9.97 | [secretarea1.box.9_97.m64](secret-area/secretarea1.box.9_97.m64) | [secretarea1.st](secret-area/secretarea1.st) |
-| Bowser Stage | 12.8 | [bowser_stage.12_80.m64](battle-of-the-hope/bowser_stage.12_80.m64) | [bowser_stage.st](battle-of-the-hope/bowser_stage.st) |
+| Bowser Stage | 12.1 | [bowser_stage.12_10.m64](battle-of-the-hope/bowser_stage.12_10.m64) | [bowser_stage.st](battle-of-the-hope/bowser_stage.st) |
 | Throws | 36.27 | [bowser_stage.throws.36_27.m64](battle-of-the-hope/bowser_stage.throws.36_27.m64) | [bowser_stage.st](battle-of-the-hope/bowser_stage.st) |
