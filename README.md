@@ -34,7 +34,7 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
 | Find the 8 Red Coins + 100c | 52.2 | [bom_course1.100c+reds.52_20.m64](1-bob-omb-mountain/bom_course1.100c%2Breds.52_20.m64) | [bom_course1.st](1-bob-omb-mountain/bom_course1.st) |
 | The Son of Whomp King | 31.77 | [whompnew.31_77.m64](2-sky-kingdom/whompnew.31_77.m64) | [whompnew.st](2-sky-kingdom/whompnew.st) |
 | At the Other End of the Kingdom | 18 | [course2.other_end_of_kingdom.18_00.m64](2-sky-kingdom/course2.other_end_of_kingdom.18_00.m64) | [course2.st](2-sky-kingdom/course2.st) |
-| In the Wall | 17.07 | [inthewall_2.17_07.m64](2-sky-kingdom/inthewall_2.17_07.m64) | [inthewall_2.st](2-sky-kingdom/inthewall_2.st) |
+| In the Wall | 16.97 | [inthewall_2.16_97.m64](2-sky-kingdom/inthewall_2.16_97.m64) | [inthewall_2.st](2-sky-kingdom/inthewall_2.st) |
 | Listen to What the Bob-omb Has to Say to You | 10.23 | [listentowhatthebobombhastosaytoyou.10_23.m64](2-sky-kingdom/listentowhatthebobombhastosaytoyou.10_23.m64) | [listentowhatthebobombhastosaytoyou.st](2-sky-kingdom/listentowhatthebobombhastosaytoyou.st) |
 | The Four Pillars | 19.6 | [fourpillars.19_60.m64](2-sky-kingdom/fourpillars.19_60.m64) | [fourpillars.st](2-sky-kingdom/fourpillars.st) |
 | The 8 Red Coins Again + 100c | 90.27 | [100c.skykingdom.swim_baked.m64](2-sky-kingdom/100c.skykingdom.swim_baked.m64) | [100c.st](2-sky-kingdom/100c.st) |
