@@ -32,7 +32,7 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
 | Fly with Fly Guy | 18.13 | [star5.flyguy.18_13.m64](1-bob-omb-mountain/star5.flyguy.18_13.m64) | [star5.st](1-bob-omb-mountain/star5.st) |
 | The Locked Hole | 5.43 | [star5.locked.5_43.m64](1-bob-omb-mountain/star5.locked.5_43.m64) | [star5.st](1-bob-omb-mountain/star5.st) |
 | Find the 8 Red Coins + 100c | 52.2 | [bom_course1.100c+reds.52_20.m64](1-bob-omb-mountain/bom_course1.100c%2Breds.52_20.m64) | [bom_course1.st](1-bob-omb-mountain/bom_course1.st) |
-| The Son of Whomp King | 35.13 | [sk_thesonofwhompking_1.09152026.m64](2-sky-kingdom/sk_thesonofwhompking_1.09152026.m64) | [sk_thesonofwhompking_1.st](2-sky-kingdom/sk_thesonofwhompking_1.st) |
+| The Son of Whomp King | 31.77 | [whompnew.31_77.m64](2-sky-kingdom/whompnew.31_77.m64) | [whompnew.st](2-sky-kingdom/whompnew.st) |
 | At the Other End of the Kingdom | 20.17 | [course2.other_end_of_kingdom.20_17.m64](2-sky-kingdom/course2.other_end_of_kingdom.20_17.m64) | [course2.st](2-sky-kingdom/course2.st) |
 | In the Wall | 19.77 | [inthewall_2.m64](2-sky-kingdom/inthewall_2.m64) | [inthewall_2.st](2-sky-kingdom/inthewall_2.st) |
 | Listen to What the Bob-omb Has to Say to You | 10.57 | [listentowhatthebobombhastosaytoyou.dsg_idea.m64](2-sky-kingdom/listentowhatthebobombhastosaytoyou.dsg_idea.m64) | [listentowhatthebobombhastosaytoyou.st](2-sky-kingdom/listentowhatthebobombhastosaytoyou.st) |
