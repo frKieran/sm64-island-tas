@@ -51,6 +51,9 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
     - It's written in Mupen 1.4's gzip format, because Mupen can't save a state from before a movie's first frame;
       1.5 loads it.
     - Built programmatically, so it has no rerecord count of its own.
+  - `spawn1.to_sa.61f.m64` + `spawn1.st`: Spawn 1 → Secret Area, 2.03 (61 frames, first idle frame to the warp).
+    Three walking frames, a long jump, and a second long jump on the landing frame that rises into the alcove.
+    Built programmatically.
 
 ## Stars
 
