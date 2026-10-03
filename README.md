@@ -37,6 +37,13 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
     - `lobby.st` is the state one frame before the castle loads (power-on sample 169). Start new file-load movies
       from it. The load frame itself already takes input, so a dive is possible on it.
     - `poweron.lobby.169f.m64` (power-on, Start on alternate samples) is how `lobby.st` was made.
+  - `spawn1.to_sk.54f.m64` + `spawn1.st`: Spawn 1 → Sky Kingdom (= the Sky Kingdom re-entry), 1.80 (54 frames, first
+    idle frame to the warp). Two long jumps; the second touches the warp in the air.
+    - `spawn1.st` is `sky kingdom re-enter.st` with one RAM value changed (prevNumStarsForDialog = numStars), so
+      the 1-star text box doesn't play. Any first-room star exit lands Mario in the same state.
+    - It's written in Mupen 1.4's gzip format, because Mupen can't save a state from before a movie's first frame;
+      1.5 loads it.
+    - Built programmatically, so it has no rerecord count of its own.
 
 ## Stars
 
