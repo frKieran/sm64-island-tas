@@ -28,9 +28,9 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
 - `castle-movement/`: level re-entries. Timed from the first frame of control after the exit to the painting entry.
   `sky kingdom re-enter.m64` is unfinished: its savestate is the first star, so the 1-star text box plays at the exit
   and the movie ends with Mario idle.
-  - `start.to sk.68f.m64` + `start.st` (wowpow): Spawn → Sky Kingdom, 68 frames from the file-load spawn (the first
+  - `start.to sk.68f.m64` + `start.st` (wowpow): Start → Sky Kingdom (the file-load spawn), 68 frames from the file-load spawn (the first
     non-white frame) to the warp (the first DISAPPEARED frame).
-  - `lobby.to_sk.67f.m64` + `lobby.st`: Spawn → Sky Kingdom, 2.23 (134 VIs on SM64LuaRedux's timer; wowpow's route
+  - `lobby.to_sk.67f.m64` + `lobby.st`: Start → Sky Kingdom, 2.23 (134 VIs on SM64LuaRedux's timer; wowpow's route
     is 136 from the same start). It's wowpow's route, re-aimed: a steeper turn and some long-jump drift cross the
     alcove edge a frame sooner. Built programmatically, so it has no rerecord count of its own; the header keeps
     wowpow's.
