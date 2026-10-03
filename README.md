@@ -26,7 +26,10 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
   exit). Built programmatically (the out-of-bounds death is sub-unit precise), so it has no rerecord count of its
   own; the header still carries the 14.60 movie's.
 - `castle-movement/`: level re-entries. Timed from the first frame of control after the exit to the painting entry.
-  `sky kingdom re-enter.m64` does not reach the painting on playback (Mario idles after a dialog at the exit).
+  `sky kingdom re-enter.m64` is unfinished: its savestate is the first star, so the 1-star text box plays at the exit
+  and the movie ends with Mario idle.
+  - `start.to sk.68f.m64` + `start.st` (wowpow): Spawn → Sky Kingdom, 68 frames from the file-load spawn (the first
+    non-white frame) to the warp (the first DISAPPEARED frame).
 
 ## Stars
 
