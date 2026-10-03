@@ -37,6 +37,13 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
     - `lobby.st` is the state one frame before the castle loads (power-on sample 169). Start new file-load movies
       from it. The load frame itself already takes input, so a dive is possible on it.
     - `poweron.lobby.169f.m64` (power-on, Start on alternate samples) is how `lobby.st` was made.
+  - `lobby.to_bob.69f.m64` + `lobby.st`: Start → Bob-omb Mountain, 2.30 (138 VIs). The same opening (dive, rollout,
+    walking turn, long jump), touching the warp just after landing on its platform. The warp is about 110 units
+    farther from the spawn than Sky Kingdom's, so it takes 2 frames more. Built programmatically.
+  - `lobby.to_sa.74f.m64` + `lobby.st`: Start → Secret Area, 2.47 (148 VIs), the same time as Toriku and wowpow's.
+    The warp sits at the back of an alcove 133 units above the lobby floor, so it takes two long jumps; the second
+    drifts sideways to get around the Toad standing next to the alcove (its push knocks Mario off course).
+    Built programmatically.
   - `spawn1.to_sk.54f.m64` + `spawn1.st`: Spawn 1 → Sky Kingdom (= the Sky Kingdom re-entry), 1.80 (54 frames, first
     idle frame to the warp). Two long jumps; the second touches the warp in the air.
     - `spawn1.st` is `sky kingdom re-enter.st` with one RAM value changed (prevNumStarsForDialog = numStars), so
