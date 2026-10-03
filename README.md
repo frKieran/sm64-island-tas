@@ -40,7 +40,7 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
 | The Locked Hole | 5.43 | [star5.locked.5_43.m64](1-bob-omb-mountain/star5.locked.5_43.m64) | [star5.st](1-bob-omb-mountain/star5.st) |
 | Find the 8 Red Coins + 100c | 52.2 | [bom_course1.100c+reds.52_20.m64](1-bob-omb-mountain/bom_course1.100c%2Breds.52_20.m64) | [bom_course1.st](1-bob-omb-mountain/bom_course1.st) |
 | The Son of Whomp King | 31.77 | [whompnew.31_77.m64](2-sky-kingdom/whompnew.31_77.m64) | [whompnew.st](2-sky-kingdom/whompnew.st) |
-| At the Other End of the Kingdom | 17.67 | [inthewall_2.other_end_of_kingdom.17_67.m64](2-sky-kingdom/inthewall_2.other_end_of_kingdom.17_67.m64) | [inthewall_2.st](2-sky-kingdom/inthewall_2.st) |
+| At the Other End of the Kingdom | 17.33 | [inthewall_2.other_end_of_kingdom.17_33.m64](2-sky-kingdom/inthewall_2.other_end_of_kingdom.17_33.m64) | [inthewall_2.st](2-sky-kingdom/inthewall_2.st) |
 | In the Wall | 16.97 | [inthewall_2.16_97.m64](2-sky-kingdom/inthewall_2.16_97.m64) | [inthewall_2.st](2-sky-kingdom/inthewall_2.st) |
 | Listen to What the Bob-omb Has to Say to You | 10.23 | [listentowhatthebobombhastosaytoyou.10_23.m64](2-sky-kingdom/listentowhatthebobombhastosaytoyou.10_23.m64) | [listentowhatthebobombhastosaytoyou.st](2-sky-kingdom/listentowhatthebobombhastosaytoyou.st) |
 | The Four Pillars | 19.6 | [fourpillars.19_60.m64](2-sky-kingdom/fourpillars.19_60.m64) | [fourpillars.st](2-sky-kingdom/fourpillars.st) |
