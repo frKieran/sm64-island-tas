@@ -30,6 +30,13 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
   and the movie ends with Mario idle.
   - `start.to sk.68f.m64` + `start.st` (wowpow): Spawn → Sky Kingdom, 68 frames from the file-load spawn (the first
     non-white frame) to the warp (the first DISAPPEARED frame).
+  - `lobby.to_sk.67f.m64` + `lobby.st`: Spawn → Sky Kingdom, 2.23 (134 VIs on SM64LuaRedux's timer; wowpow's route
+    is 136 from the same start). It's wowpow's route, re-aimed: a steeper turn and some long-jump drift cross the
+    alcove edge a frame sooner. Built programmatically, so it has no rerecord count of its own; the header keeps
+    wowpow's.
+    - `lobby.st` is the state one frame before the castle loads (power-on sample 169). Start new file-load movies
+      from it. The load frame itself already takes input, so a dive is possible on it.
+    - `poweron.lobby.169f.m64` (power-on, Start on alternate samples) is how `lobby.st` was made.
 
 ## Stars
 
