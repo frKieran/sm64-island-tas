@@ -51,6 +51,10 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
     - It's written in Mupen 1.4's gzip format, because Mupen can't save a state from before a movie's first frame;
       1.5 loads it.
     - Built programmatically, so it has no rerecord count of its own.
+  - `spawn1.to_sk.53f.m64` + `spawn1.st`: Spawn 1 → Sky Kingdom, 1.77 (53 frames), a frame under the 54. It opens
+    with Toriku's punch start (B at idle on the control frame: the punch sets speed 10 at once, and walking on the
+    next frame keeps it), then 7 walking frames turning toward the west, a long jump and a second long jump one
+    frame after landing. Built programmatically.
   - `spawn1.to_sa.61f.m64` + `spawn1.st`: Spawn 1 → Secret Area, 2.03 (61 frames, first idle frame to the warp).
     Three walking frames, a long jump, and a second long jump on the landing frame that rises into the alcove.
     Built programmatically.
