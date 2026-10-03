@@ -20,7 +20,8 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
   first frame Mario's action is DISAPPEARED (entering the pipe, not the later level change); Throws from the timer's restart on the arena fade-in to the frame
   Mario enters DISAPPEARED from the Grand Star warp.
 - **Hide in the Mountain → DSG** (`star5.dsg.17_40.m64`): the death star glitch, for the full-game TAS. Timed
-  from the fade-in to the first frame of the death fade (sample 540), as DSG is timed. Slower than the 14.60 on
+  from the fade-in to the first frame of the death fade (sample 540), counting that frame (17.40 if the timer
+  stops on it instead; DSG timing is a convention). Slower than the 14.60 on
   its own, but Mario has control in the castle 26 frames sooner (a death exit instead of the star dance and course
   exit). Built programmatically (the out-of-bounds death is sub-unit precise), so it has no rerecord count of its
   own; the header still carries the 14.60 movie's.
@@ -33,7 +34,7 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
 |---|---|---|---|
 | Big Bob-Omb Fight Back | 38.27 | [bom_course1.king.38_27.m64](1-bob-omb-mountain/bom_course1.king.38_27.m64) | [bom_course1.st](1-bob-omb-mountain/bom_course1.st) |
 | Hide in the Mountain | 14.6 | [star5.mountain.14_60.m64](1-bob-omb-mountain/star5.mountain.14_60.m64) | [star5.st](1-bob-omb-mountain/star5.st) |
-| Hide in the Mountain → DSG (full run) | 17.4 | [star5.dsg.17_40.m64](1-bob-omb-mountain/star5.dsg.17_40.m64) | [star5.st](1-bob-omb-mountain/star5.st) |
+| Hide in the Mountain → DSG (full run) | 17.43 | [star5.dsg.17_40.m64](1-bob-omb-mountain/star5.dsg.17_40.m64) | [star5.st](1-bob-omb-mountain/star5.st) |
 | Climb the House | 6.13 | [bom_course1.climb.6_13.m64](1-bob-omb-mountain/bom_course1.climb.6_13.m64) | [bom_course1.st](1-bob-omb-mountain/bom_course1.st) |
 | Fly with Fly Guy | 18.13 | [star5.flyguy.18_13.m64](1-bob-omb-mountain/star5.flyguy.18_13.m64) | [star5.st](1-bob-omb-mountain/star5.st) |
 | The Locked Hole | 5.43 | [star5.locked.5_43.m64](1-bob-omb-mountain/star5.locked.5_43.m64) | [star5.st](1-bob-omb-mountain/star5.st) |
