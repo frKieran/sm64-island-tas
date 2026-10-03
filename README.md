@@ -58,6 +58,9 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
   - `spawn1.to_sa.61f.m64` + `spawn1.st`: Spawn 1 → Secret Area, 2.03 (61 frames, first idle frame to the warp).
     Three walking frames, a long jump, and a second long jump on the landing frame that rises into the alcove.
     Built programmatically.
+  - `spawn1.to_sa.60f.m64` + `spawn1.st`: Spawn 1 → Secret Area, 2.00 (60 frames), a frame under the 61 with the
+    punch start, then 4 walking frames, a long jump and a second long jump on the landing frame. Built
+    programmatically.
   - `spawn2.to_wjt.47f.m64` + `spawn2.st`: Spawn 2 → Walljump Training, 1.57 (47 frames, first idle frame to the
     warp), one frame under the Lava Plaza re-entry (the Walljump warp is 72 units closer to Spawn 2). Three walking
     frames and two long jumps, like `re-enter lava plaza.m64`. `spawn2.st` is a copy of `re-enter lava plaza.st` (the
