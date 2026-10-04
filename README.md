@@ -61,6 +61,12 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
   - `spawn1.to_sa.60f.m64` + `spawn1.st`: Spawn 1 → Secret Area, 2.00 (60 frames), a frame under the 61 with the
     punch start, then 4 walking frames, a long jump and a second long jump on the landing frame. Built
     programmatically.
+  - Spawn 1 after the death exit (the DSG): `spawn1d.st` is the state one frame before the castle loads after
+    `1-bob-omb-mountain/star5.dsg.17_40.m64`'s death; Mario lands at (−8.54, −380, 463.92) facing 0x7F49 and has
+    control 112 frames later. Timed like the re-entries (first idle frame to the warp). Built programmatically.
+    - `spawn1d.to_sk.53f.m64`: → Sky Kingdom, 1.77 (no punch: Mario faces south, and the landing is 8.5 units closer).
+    - `spawn1d.to_bob.56f.m64`: → Bob-omb Mountain, 1.87.
+    - `spawn1d.to_sa.61f.m64`: → Secret Area, 2.03.
   - `spawn2.to_wjt.47f.m64` + `spawn2.st`: Spawn 2 → Walljump Training, 1.57 (47 frames, first idle frame to the
     warp), one frame under the Lava Plaza re-entry (the Walljump warp is 72 units closer to Spawn 2). Three walking
     frames and two long jumps, like `re-enter lava plaza.m64`. `spawn2.st` is a copy of `re-enter lava plaza.st` (the
