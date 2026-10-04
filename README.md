@@ -67,6 +67,16 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
     - `spawn1d.to_sk.53f.m64`: → Sky Kingdom, 1.77 (no punch: Mario faces south, and the landing is 8.5 units closer).
     - `spawn1d.to_bob.56f.m64`: → Bob-omb Mountain, 1.87.
     - `spawn1d.to_sa.61f.m64`: → Secret Area, 2.03.
+  - BLJs past the 12-star door, from a Spawn 1 star exit (`spawn1blj.st` = Toriku's savestate; control on sample 160):
+    - `spawn1blj.to_lp.106f.m64` (Toriku): Spawn 1 → Lava Plaza, 3.53. A punch start and a long jump onto the stairs,
+      a turnaround, a backward long jump onto the top step, six BLJ presses there, and a hyperspeed launch through the
+      12-star door. His movie as he made it (RCP lag factor set to 0).
+    - `spawn1blj.to_wjt.107f.m64` (Toriku's inputs, mirrored): Spawn 1 → Walljump Training, 3.57. His Lava Plaza
+      inputs mirrored across the lobby's centre, each stick refitted to the camera, which isn't symmetric. Not
+      optimised yet.
+  - `spawn2.to_bowser.86f.m64` + `spawn2.st` (Kieran): Spawn 2 → Battle of the Hope, 2.87 (86 frames, first idle frame
+    to the pipe). A backflip toward the 30-star doors, a ledge grab and soft bonk that clip past the door, then a
+    jump kick into the pipe.
   - `spawn2.to_wjt.47f.m64` + `spawn2.st`: Spawn 2 → Walljump Training, 1.57 (47 frames, first idle frame to the
     warp), one frame under the Lava Plaza re-entry (the Walljump warp is 72 units closer to Spawn 2). Three walking
     frames and two long jumps, like `re-enter lava plaza.m64`. `spawn2.st` is a copy of `re-enter lava plaza.st` (the
