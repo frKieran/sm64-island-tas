@@ -11,9 +11,11 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
 
 ## Notes
 
-- **The 8 Red Coins Again + 100c** (`100c.skykingdom.swim_baked.m64`): the original was recorded with SM64Lua's swim
-  button on and desyncs without it. This copy has those A presses (22 samples, 592-662) written into the inputs, so
-  it plays on its own. **Turn SM64Lua's swim button off** for it.
+- **The 8 Red Coins Again + 100c** (`100c.skykingdom.swim_baked.85_73.m64`, the 90.27 record is still
+  `100c.skykingdom.swim_baked.m64`): both were recorded with SM64Lua's swim button on, and the raw movies desync
+  without it. Each copy has those A presses written into the inputs, so it plays on its own (verified 2026-10-06 in
+  Mupen with no SM64Lua loaded, Redux timer 5144 VIs = 85.73, star dance on sample 2650).
+  **Turn SM64Lua's swim button off** for them.
 - **Bowser Stage** and **Throws** are one movie (`bowser_stage.m64`): the stage, then the fight.
   `bowser_stage.throws.36_27.m64` is the same stage with the faster fight. `bowser_stage.12_10.m64` has both the
   faster stage (no extra idle frame) and the faster fight. Bowser Stage is timed from SM64Lua's timer start to the
@@ -98,7 +100,7 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
 | In the Wall | 16.97 | [inthewall_2.16_97.m64](2-sky-kingdom/inthewall_2.16_97.m64) | [inthewall_2.st](2-sky-kingdom/inthewall_2.st) |
 | Listen to What the Bob-omb Has to Say to You | 10.23 | [listentowhatthebobombhastosaytoyou.10_23.m64](2-sky-kingdom/listentowhatthebobombhastosaytoyou.10_23.m64) | [listentowhatthebobombhastosaytoyou.st](2-sky-kingdom/listentowhatthebobombhastosaytoyou.st) |
 | The Four Pillars | 19.6 | [fourpillars.19_60.m64](2-sky-kingdom/fourpillars.19_60.m64) | [fourpillars.st](2-sky-kingdom/fourpillars.st) |
-| The 8 Red Coins Again + 100c | 90.27 | [100c.skykingdom.swim_baked.m64](2-sky-kingdom/100c.skykingdom.swim_baked.m64) | [100c.st](2-sky-kingdom/100c.st) |
+| The 8 Red Coins Again + 100c | 85.73 | [100c.skykingdom.swim_baked.85_73.m64](2-sky-kingdom/100c.skykingdom.swim_baked.85_73.m64) | [100c.st](2-sky-kingdom/100c.st) |
 | Burn the Big Bully | 15.83 | [lp_course3_3.burn_the_big_bully.15_83.m64](3-lava-plaza/lp_course3_3.burn_the_big_bully.15_83.m64) | [lp_course3_3.st](3-lava-plaza/lp_course3_3.st) |
 | In the Corner | 14.13 | [lp_course3_3.in_the_corner.14_13.m64](3-lava-plaza/lp_course3_3.in_the_corner.14_13.m64) | [lp_course3_3.st](3-lava-plaza/lp_course3_3.st) |
 | At the Top of the Volcano | 11.83 | [lp_course3_3.at_the_top_of_the_volcano.11_83.m64](3-lava-plaza/lp_course3_3.at_the_top_of_the_volcano.11_83.m64) | [lp_course3_3.st](3-lava-plaza/lp_course3_3.st) |
