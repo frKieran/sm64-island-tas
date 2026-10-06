@@ -11,11 +11,12 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
 
 ## Notes
 
-- **The 8 Red Coins Again + 100c** (`100c.skykingdom.swim_baked.85_73.m64`, the 90.27 record is still
-  `100c.skykingdom.swim_baked.m64`): both were recorded with SM64Lua's swim button on, and the raw movies desync
-  without it. Each copy has those A presses written into the inputs, so it plays on its own (verified 2026-10-06 in
-  Mupen with no SM64Lua loaded, Redux timer 5144 VIs = 85.73, star dance on sample 2650).
-  **Turn SM64Lua's swim button off** for them.
+- **The 8 Red Coins Again + 100c**: two records, and only the old one needs SM64Lua's swim button.
+  - `100c.skykingdom.swim_baked.m64` (90.27) was recorded with SM64Lua's swim on and desyncs without it. Its copy has
+    those A presses written into the inputs, so it plays on its own. **Turn SM64Lua's swim button off** for it.
+  - `100c.skykingdom.swim_baked.85_73.m64` (85.73) is a new route, recorded without swim; the `swim_baked` in its name
+    is only inherited from the file it was branched from. It needs nothing special. Not optimised yet. Redux timer
+    5144 VIs = 85.73, star dance on sample 2650 (verified 2026-10-06 in Mupen with no SM64Lua loaded).
 - **Bowser Stage** and **Throws** are one movie (`bowser_stage.m64`): the stage, then the fight.
   `bowser_stage.throws.36_27.m64` is the same stage with the faster fight. `bowser_stage.12_10.m64` has both the
   faster stage (no extra idle frame) and the faster fight. Bowser Stage is timed from SM64Lua's timer start to the
