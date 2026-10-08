@@ -83,6 +83,11 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
       sticks on the stair landing so the turnaround happens on a lower step, a backward long jump that lands a frame
       sooner, neutral sticks between the BLJ presses (holding the stick costs launch speed) and a launch a frame
       sooner at −245. Built programmatically (the same time as MiloboloWF's own movie).
+    - `spawn1blj.to_lp.96f.m64` (Kieran, Toriku): Spawn 1 → Lava Plaza, 3.20 (96 frames). Kieran's slide-kick start
+      (punch, slide kick east, rollout, dive: idle on the step a frame sooner than the long-jump start) on Toriku's
+      route. Kieran's movie held the BLJ pin with off-axis sticks and launched at −232; here only the first press is
+      off-axis (12°, enough to stay pinned) and the other presses are straight back, so the launch reaches −245.6 and
+      the flight takes 8 frames instead of 9. Built programmatically.
     - `spawn1blj.to_wjt.107f.m64` (Toriku's inputs, mirrored): Spawn 1 → Walljump Training, 3.57. His Lava Plaza
       inputs mirrored across the lobby's centre, each stick refitted to the camera, which isn't symmetric.
     - `spawn1blj.to_wjt.99f.m64` (MiloboloWF, Toriku): Spawn 1 → Walljump Training, 3.30 (99 frames). A 98-frame
