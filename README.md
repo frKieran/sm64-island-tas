@@ -37,9 +37,12 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
     is 136 from the same start). It's wowpow's route, re-aimed: a steeper turn and some long-jump drift cross the
     alcove edge a frame sooner. Built programmatically, so it has no rerecord count of its own; the header keeps
     wowpow's.
-    - `lobby.st` is the state one frame before the castle loads (power-on sample 169). Start new file-load movies
-      from it. The load frame itself already takes input, so a dive is possible on it.
-    - `poweron.lobby.169f.m64` (power-on, Start on alternate samples) is how `lobby.st` was made.
+    - `lobby.st` is the state one frame before the castle loads. Start new file-load movies from it. The load frame
+      itself already takes input, so a dive is possible on it.
+    - `poweron.lobby.168f.m64` (power-on) is how `lobby.st` is made since 2026-10-08: Start on each menu's first
+      accepting frame (the title takes it from input 117, the file select on its first frame, 135), so the castle
+      loads a frame (2 VIs) sooner than with `poweron.lobby.169f.m64`, which pressed Start on every even sample and
+      waited for 118 at the title. The Start movies play identically from the new `lobby.st`.
   - `lobby.to_bob.69f.m64` + `lobby.st`: Start → Bob-omb Mountain, 2.30 (138 VIs). The same opening (dive, rollout,
     walking turn, long jump), touching the warp just after landing on its platform. The warp is about 110 units
     farther from the spawn than Sky Kingdom's, so it takes 2 frames more. Built programmatically.
@@ -72,14 +75,26 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
     - `spawn1d.to_sa.61f.m64`: → Secret Area, 2.03.
   - BLJs past the 12-star door, from a Spawn 1 star exit (`spawn1blj.st` = Toriku's savestate; control on sample 160):
     - `spawn1blj.to_lp.106f.m64` (Toriku): Spawn 1 → Lava Plaza, 3.53. A punch start and a long jump onto the stairs,
-      a turnaround, a backward long jump onto the top step, six BLJ presses there, and a hyperspeed launch through the
-      12-star door. His movie as he made it (RCP lag factor set to 0).
+      a turnaround, a backward long jump into the low tunnel under the hallway railing, six BLJ presses pinned there,
+      and a hyperspeed launch across room 1 through the room-1 / room-2 wall (a frame-start wall push at x ≈ 1180, not
+      the 12-star door). His original route, as he made it (RCP lag factor set to 0).
+    - `spawn1blj.to_lp.97f.m64` (MiloboloWF, Toriku): Spawn 1 → Lava Plaza, 3.23 (97 frames). Toriku's route with
+      MiloboloWF's long-jump start (crouch slide on the second frame after the punch, long jump on the third), neutral
+      sticks on the stair landing so the turnaround happens on a lower step, a backward long jump that lands a frame
+      sooner, neutral sticks between the BLJ presses (holding the stick costs launch speed) and a launch a frame
+      sooner at −245. Built programmatically (the same time as MiloboloWF's own movie).
     - `spawn1blj.to_wjt.107f.m64` (Toriku's inputs, mirrored): Spawn 1 → Walljump Training, 3.57. His Lava Plaza
-      inputs mirrored across the lobby's centre, each stick refitted to the camera, which isn't symmetric. Not
-      optimised yet.
+      inputs mirrored across the lobby's centre, each stick refitted to the camera, which isn't symmetric.
+    - `spawn1blj.to_wjt.99f.m64` (MiloboloWF, Toriku): Spawn 1 → Walljump Training, 3.30 (99 frames). A 98-frame
+      Lava Plaza plan of the same kind, mirrored to the west railing; the Walljump warp is farther, so a frame more.
+      Built programmatically.
   - `spawn2.to_bowser.86f.m64` + `spawn2.st` (Kieran): Spawn 2 → Battle of the Hope, 2.87 (86 frames, first idle frame
     to the pipe). A backflip toward the 30-star doors, a ledge grab and soft bonk that clip past the door, then a
     jump kick into the pipe.
+  - `spawn2.to_bowser.84f.m64` + `spawn2.st` (Kieran): Spawn 2 → Battle of the Hope, 2.80 (84 frames). Kieran's door
+    clip unchanged, then a punch, a jump and a jump kick into the pipe's side wall instead of over its rim: falling
+    through y 330 just past the ~50-thick wall, the two faces' pushes add up and put Mario inside, below the rim.
+    Built programmatically.
   - `spawn2.to_wjt.47f.m64` + `spawn2.st`: Spawn 2 → Walljump Training, 1.57 (47 frames, first idle frame to the
     warp), one frame under the Lava Plaza re-entry (the Walljump warp is 72 units closer to Spawn 2). Three walking
     frames and two long jumps, like `re-enter lava plaza.m64`. `spawn2.st` is a copy of `re-enter lava plaza.st` (the
