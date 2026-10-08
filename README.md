@@ -55,7 +55,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
   and the movie ends with Mario idle.
   - `archive/castle-movement/start.to sk.68f.m64` + `archive/castle-movement/start.st` (wowpow): Start → Sky Kingdom (the file-load spawn), 68 frames from the file-load spawn (the first
     non-white frame) to the warp (the first DISAPPEARED frame).
-  - `castle_start.to_sk.67f.m64` + `archive/castle-movement/lobby.st`: Start → Sky Kingdom, 2.23 (134 VIs on SM64LuaRedux's timer; wowpow's route
+  - `castle_start.to_sk.67f.m64` + `castle_start.st`: Start → Sky Kingdom, 2.23 (134 VIs on SM64LuaRedux's timer; wowpow's route
     is 136 from the same start). It's wowpow's route, re-aimed: a steeper turn and some long-jump drift cross the
     alcove edge a frame sooner. Built programmatically, so it has no rerecord count of its own; the header keeps
     wowpow's.
@@ -65,10 +65,10 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
       accepting frame (the title takes it from input 117, the file select on its first frame, 135), so the castle
       loads a frame (2 VIs) sooner than with `archive/castle-movement/poweron.lobby.169f.m64`, which pressed Start on every even sample and
       waited for 118 at the title. The Start movies play identically from the new `archive/castle-movement/lobby.st`.
-  - `castle_start.to_bom.69f.m64` + `archive/castle-movement/lobby.st`: Start → Bob-omb Mountain, 2.30 (138 VIs). The same opening (dive, rollout,
+  - `castle_start.to_bom.69f.m64` + `castle_start.st`: Start → Bob-omb Mountain, 2.30 (138 VIs). The same opening (dive, rollout,
     walking turn, long jump), touching the warp just after landing on its platform. The warp is about 110 units
     farther from the spawn than Sky Kingdom's, so it takes 2 frames more. Built programmatically.
-  - `castle_start.to_sa.74f.m64` + `archive/castle-movement/lobby.st`: Start → Secret Area, 2.47 (148 VIs), the same time as Toriku and wowpow's.
+  - `castle_start.to_sa.74f.m64` + `castle_start.st`: Start → Secret Area, 2.47 (148 VIs), the same time as Toriku and wowpow's.
     The warp sits at the back of an alcove 133 units above the lobby floor, so it takes two long jumps; the second
     drifts sideways to get around the Toad standing next to the alcove (its push knocks Mario off course).
     Built programmatically.
@@ -79,14 +79,14 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
     - It's written in Mupen 1.4's gzip format, because Mupen can't save a state from before a movie's first frame;
       1.5 loads it.
     - Built programmatically, so it has no rerecord count of its own.
-  - `castle_spawn1_star.to_sk.53f.m64` + `archive/castle-movement/spawn1.st`: Spawn 1 → Sky Kingdom, 1.77 (53 frames), a frame under the 54. It opens
+  - `castle_spawn1_star.to_sk.53f.m64` + `castle_spawn1_star.st`: Spawn 1 → Sky Kingdom, 1.77 (53 frames), a frame under the 54. It opens
     with Toriku's punch start (B at idle on the control frame: the punch sets speed 10 at once, and walking on the
     next frame keeps it), then 7 walking frames turning toward the west, a long jump and a second long jump one
     frame after landing. Built programmatically.
   - `archive/castle-movement/spawn1.to_sa.61f.m64` + `archive/castle-movement/spawn1.st`: Spawn 1 → Secret Area, 2.03 (61 frames, first idle frame to the warp).
     Three walking frames, a long jump, and a second long jump on the landing frame that rises into the alcove.
     Built programmatically.
-  - `castle_spawn1_star.to_sa.60f.m64` + `archive/castle-movement/spawn1.st`: Spawn 1 → Secret Area, 2.00 (60 frames), a frame under the 61 with the
+  - `castle_spawn1_star.to_sa.60f.m64` + `castle_spawn1_star.st`: Spawn 1 → Secret Area, 2.00 (60 frames), a frame under the 61 with the
     punch start, then 4 walking frames, a long jump and a second long jump on the landing frame. Built
     programmatically.
   - Spawn 1 after the death exit (the DSG): `archive/castle-movement/spawn1d.st` is the state one frame before the castle loads after
@@ -132,12 +132,12 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
     clip unchanged, then a punch, a jump and a jump kick into the pipe's side wall instead of over its rim: falling
     through y 330 just past the ~50-thick wall, the two faces' pushes add up and put Mario inside, below the rim.
     Built programmatically.
-  - `castle_spawn2_star.to_bs.83f.m64` + `archive/castle-movement/spawn2.st` (Kieran): Spawn 2 → Battle of the Hope, 2.77 (83 frames). The same door
+  - `castle_spawn2_star.to_bs.83f.m64` + `castle_spawn2_star.st` (Kieran): Spawn 2 → Battle of the Hope, 2.77 (83 frames). The same door
     clip, then the pipe's south vertex: the jump kick's first quarter step on its second-to-last frame lands exactly
     on x = 92.0, the edge the pipe's two south outer faces share, where both faces push and Mario is carried inside a
     frame sooner. The two sticks were solved in the emulator against the live camera (float-exact), so the movie is a
     one-off, not a re-runnable recipe. Built programmatically.
-  - `castle_spawn2_star.to_wjt.47f.m64` + `archive/castle-movement/spawn2.st`: Spawn 2 → Walljump Training, 1.57 (47 frames, first idle frame to the
+  - `castle_spawn2_star.to_wjt.47f.m64` + `castle_spawn2_star.st`: Spawn 2 → Walljump Training, 1.57 (47 frames, first idle frame to the
     warp), one frame under the Lava Plaza re-entry (the Walljump warp is 72 units closer to Spawn 2). Three walking
     frames and two long jumps, like `castle_spawn2_star.to_lp.48f.m64`. `archive/castle-movement/spawn2.st` is a copy of `archive/castle-movement/re-enter lava plaza.st` (the
     room-2 exit, no text box), named so Mupen pairs it with the `spawn2.*` movies. Built programmatically.
