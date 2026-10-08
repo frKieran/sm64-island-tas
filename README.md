@@ -93,6 +93,9 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
     - `spawn1blj.to_wjt.99f.m64` (MiloboloWF, Toriku): Spawn 1 → Walljump Training, 3.30 (99 frames). A 98-frame
       Lava Plaza plan of the same kind, mirrored to the west railing; the Walljump warp is farther, so a frame more.
       Built programmatically.
+    - `spawn1blj.to_wjt.97f.m64` (Kieran, Toriku): Spawn 1 → Walljump Training, 3.23 (97 frames). Kieran's slide-kick
+      start mirrored to the west side (the user's idea), pinned under the west railing with a single slide frame,
+      straight-back presses, launch at −246. Built programmatically.
   - `spawn2.to_bowser.86f.m64` + `spawn2.st` (Kieran): Spawn 2 → Battle of the Hope, 2.87 (86 frames, first idle frame
     to the pipe). A backflip toward the 30-star doors, a ledge grab and soft bonk that clip past the door, then a
     jump kick into the pipe.
