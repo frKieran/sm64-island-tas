@@ -106,6 +106,11 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
     clip unchanged, then a punch, a jump and a jump kick into the pipe's side wall instead of over its rim: falling
     through y 330 just past the ~50-thick wall, the two faces' pushes add up and put Mario inside, below the rim.
     Built programmatically.
+  - `spawn2.to_bowser.83f.m64` + `spawn2.st` (Kieran): Spawn 2 → Battle of the Hope, 2.77 (83 frames). The same door
+    clip, then the pipe's south vertex: the jump kick's first quarter step on its second-to-last frame lands exactly
+    on x = 92.0, the edge the pipe's two south outer faces share, where both faces push and Mario is carried inside a
+    frame sooner. The two sticks were solved in the emulator against the live camera (float-exact), so the movie is a
+    one-off, not a re-runnable recipe. Built programmatically.
   - `spawn2.to_wjt.47f.m64` + `spawn2.st`: Spawn 2 → Walljump Training, 1.57 (47 frames, first idle frame to the
     warp), one frame under the Lava Plaza re-entry (the Walljump warp is 72 units closer to Spawn 2). Three walking
     frames and two long jumps, like `re-enter lava plaza.m64`. `spawn2.st` is a copy of `re-enter lava plaza.st` (the
