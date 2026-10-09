@@ -37,9 +37,11 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 - **The 8 Red Coins Again + 100c**: two records, and only the old one needs SM64Lua's swim button.
   - `archive/2-sky-kingdom/100c.skykingdom.swim_baked.m64` (90.27) was recorded with SM64Lua's swim on and desyncs without it. Its copy has
     those A presses written into the inputs, so it plays on its own. **Turn SM64Lua's swim button off** for it.
-  - `sk_6.reds100c.85_73.m64` (85.73) is a new route, recorded without swim; the `swim_baked` in its name
-    is only inherited from the file it was branched from. It needs nothing special. Not optimised yet. Redux timer
-    5144 VIs = 85.73, star dance on sample 2650 (verified 2026-10-06 in Mupen with no SM64Lua loaded).
+  - `sk_6.reds100c.85_20.m64` (85.20, 2026-10-09): the new route (85.73, now
+    `archive/2-sky-kingdom/sk_6.reds100c.85_73.m64`), 16 frames faster. Red 4 is taken on the approach to BLJ 2, which
+    then starts with a bonk off the house's west wall (−14), and the final trip to the red coin star is re-searched
+    (−2). Recorded without swim; it needs nothing special. Optimisation is still in progress. Redux timer 5112 VIs =
+    85.20, red coin star dance on sample 2601 (verified in Mupen).
 - **Find the 8 Red Coins + 100c** (`bom_6.reds100c.49_10.m64`, 2026-10-09): 93 frames faster than the 52.20 and 6
   faster than the 49.30 (the older movies are in `archive/1-bob-omb-mountain/`; the 49.30's state is
   `archive/1-bob-omb-mountain/bom_6.49_30.st`). It clones the red coin star: Mario
@@ -173,7 +175,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | In the Wall | 16.97 | [sk_1.inthewall.16_97.m64](2-sky-kingdom/sk_1.inthewall.16_97.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | Listen to What the Bob-omb Has to Say to You | 10.23 | [sk_1.listen.10_23.m64](2-sky-kingdom/sk_1.listen.10_23.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | The Four Pillars | 19.6 | [sk_1.pillars.19_60.m64](2-sky-kingdom/sk_1.pillars.19_60.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
-| The 8 Red Coins Again + 100c | 85.73 | [sk_6.reds100c.85_73.m64](2-sky-kingdom/sk_6.reds100c.85_73.m64) | [sk_6.st](2-sky-kingdom/sk_6.st) |
+| The 8 Red Coins Again + 100c | 85.2 | [sk_6.reds100c.85_20.m64](2-sky-kingdom/sk_6.reds100c.85_20.m64) | [sk_6.st](2-sky-kingdom/sk_6.st) |
 | Burn the Big Bully | 15.83 | [lp_1.bully.15_83.m64](3-lava-plaza/lp_1.bully.15_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | In the Corner | 14.13 | [lp_1.corner.14_13.m64](3-lava-plaza/lp_1.corner.14_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | At the Top of the Volcano | 11.83 | [lp_1.volcano.11_83.m64](3-lava-plaza/lp_1.volcano.11_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
