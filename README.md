@@ -38,10 +38,10 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
   - `sk_6.reds100c.85_73.m64` (85.73) is a new route, recorded without swim; the `swim_baked` in its name
     is only inherited from the file it was branched from. It needs nothing special. Not optimised yet. Redux timer
     5144 VIs = 85.73, star dance on sample 2650 (verified 2026-10-06 in Mupen with no SM64Lua loaded).
-- **Find the 8 Red Coins + 100c** (`bom_1.reds100c.51_30.m64`, 2026-10-08): 27 frames faster than the 52.20
-  (`archive/1-bob-omb-mountain/`), with the same coin and Double Star Spawn ending. It presses no R: the camera stays
-  on the 8-direction camera (the 52.20's Mario-cam presses were only for viewing). Redux timer 3078 VIs = 51.30, star
-  dance exit on sample 1583. Not fully optimised yet.
+- **Find the 8 Red Coins + 100c** (`bom_1.reds100c.50_70.m64`, 2026-10-09): 45 frames faster than the 52.20 and 18
+  faster than the 51.30 (both in `archive/1-bob-omb-mountain/`), with the same coin and Double Star Spawn ending. It
+  presses no R: the camera stays on the 8-direction camera (the 52.20's Mario-cam presses were only for viewing).
+  Redux timer 3042 VIs = 50.70, star dance exit on sample 1565. Not fully optimised yet.
 - **Bowser Stage** (`bs.stage.12_13.m64`, from `bs.st`) and **Throws** (`ba.throws.36_30.m64`, from `ba.st`)
   are separate movies since 2026-10-08: the stage ends on the frame before the arena loads, and the fight
   starts there. The old combined movies (`bowser_stage*.m64`) are in `archive/battle-of-the-hope/`.
@@ -156,7 +156,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | Climb the House | 6.13 | [bom_1.climb.6_13.m64](1-bob-omb-mountain/bom_1.climb.6_13.m64) | [bom_1.st](1-bob-omb-mountain/bom_1.st) |
 | Fly with Fly Guy | 18.13 | [bom_5.flyguy.18_13.m64](1-bob-omb-mountain/bom_5.flyguy.18_13.m64) | [bom_5.st](1-bob-omb-mountain/bom_5.st) |
 | The Locked Hole | 5.43 | [bom_5.locked.5_43.m64](1-bob-omb-mountain/bom_5.locked.5_43.m64) | [bom_5.st](1-bob-omb-mountain/bom_5.st) |
-| Find the 8 Red Coins + 100c | 51.3 | [bom_1.reds100c.51_30.m64](1-bob-omb-mountain/bom_1.reds100c.51_30.m64) | [bom_1.st](1-bob-omb-mountain/bom_1.st) |
+| Find the 8 Red Coins + 100c | 50.7 | [bom_1.reds100c.50_70.m64](1-bob-omb-mountain/bom_1.reds100c.50_70.m64) | [bom_1.st](1-bob-omb-mountain/bom_1.st) |
 | The Son of Whomp King | 31.77 | [sk_1.whompking.31_77.m64](2-sky-kingdom/sk_1.whompking.31_77.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | At the Other End of the Kingdom | 17.33 | [sk_1.otherend.17_33.m64](2-sky-kingdom/sk_1.otherend.17_33.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | In the Wall | 16.97 | [sk_1.inthewall.16_97.m64](2-sky-kingdom/sk_1.inthewall.16_97.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
