@@ -46,9 +46,12 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
   grabs bob-omb #3, throws it onto the wedge north of R8's pillar, punches it as it explodes so he holds its vacant
   slot, and takes R8 and the bob-omb's own coin as the 100th four frames apart (Double Star Spawn), so the red coin
   star loads into the slot he holds and is collected right after the 100c dance. It plays from the red coin act's
-  state `bom_6.st` with an ideal entry RNG seed (gRandomSeed16 = 29428; single stars use ideal RNG). It presses no R.
-  The camera turns 90 degrees four times (C-right pairs before the house and the clone setup, C-left pairs back) so
-  Mario stays in view; the sticks are re-aimed to the same directions, so the timing is unchanged.
+  state `bom_6.st` with an ideal entry RNG seed (gRandomSeed16 = 29428; single stars use ideal RNG).
+  The viewing camera (redone 2026-10-09 after a review) keeps Mario in view: R (Mario cam) for the dive through the
+  first house's window and through the blue house, with C held to steer it round the stair blocks; 8-direction turns
+  after the blue house (its roof, then the mountain the camera sat inside) and for the clone setup (the stumps), back to
+  the original angle after the 100c time stop. Every stick is re-aimed to the camera it reads (in the Mario cam to the
+  nearest equivalent direction), and every coin, the star and the timing are unchanged.
   Redux timer 2946 VIs = 49.10, star dance exit on sample 1517.
 - **Bowser Stage** (`bs.stage.12_13.m64`, from `bs.st`) and **Throws** (`ba.throws.36_30.m64`, from `ba.st`)
   are separate movies since 2026-10-08: the stage ends on the frame before the arena loads, and the fight
