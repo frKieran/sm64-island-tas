@@ -38,7 +38,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 - **The 8 Red Coins Again + 100c**: two records, and only the old one needs SM64Lua's swim button.
   - `archive/2-sky-kingdom/100c.skykingdom.swim_baked.m64` (90.27) was recorded with SM64Lua's swim on and desyncs without it. Its copy has
     those A presses written into the inputs, so it plays on its own. **Turn SM64Lua's swim button off** for it.
-  - `sk_6.reds100c.79_30.m64` (79.30, 2026-10-10): 3.80 s faster than the 83.10 (228 VIs), on Kieran's macro changes.
+  - `sk_6.reds100c.79_17.m64` (79.17, 2026-10-10): 3.93 s faster than the 83.10 (236 VIs), on Kieran's macro changes.
     - Both whomps on the way are killed with the fast 10-coin method: Mario stands at a corner of the lying whomp where
       Island's 4× level bounds make its back's floor reach past its walls, and alternates jumps that land on the back in
       the same frame with frames off it (a stand-on coin every 2 frames), then ground pounds for the other 5. The
@@ -51,18 +51,19 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
       line) and a turn-around side flip at red 6; a speed kick (A held) on the way back to red 7's slope.
     - Red 7 to red 8 was modelled (the butt slide air's turn, the freefall, the speed kick, the walk-turn) and searched
       in the exact simulator: the butt slide air turns right then slightly left so the freefall faces 540 units more
-      west, and the speed kick strafes south, so it lands nearer red 8; the jumps onto red 8's ledge are re-fitted so
-      the 100-coin star is grabbed at the same spot (the final trip unchanged), one frame earlier.
+      west, and the speed kick strafes south, so it lands nearer red 8. From there Kieran re-fitted the ending: a
+      higher single jump onto the step and a short double jump take red 8 two frames earlier, the 100-coin star is
+      grabbed 74 units further east, and the final trip is re-fitted from that spot (its slide kick 3 frames earlier).
     - The archway coin line is skipped (the second whomp's 5 extra coins replace it); red 7, the bridge line, and red 8
       as the 100th coin, then a triple jump grabs the 100-coin star. The camera is turned the other way for the red 8
       approach, so the dance ends facing west and the final trip (re-searched) starts with route 2's punch. The
       100-coin star's save prompt is answered "No" (saving lags 21 VIs).
     - It plays from `sk_6.st` with an ideal entry RNG seed (gRandomSeed16 = 18125), which makes every whomp coin land.
-      Older: the 79.33, the 79.47, the 79.53, the 79.63, the 79.83 and the 80.18 in `archive/2-sky-kingdom/seed18125/`, the 83.10 in
+      Older: the 79.30, the 79.33, the 79.47, the 79.53, the 79.63, the 79.83 and the 80.18 in `archive/2-sky-kingdom/seed18125/`, the 83.10 in
       `seed46221/` (seed 46221), the 83.73 in `seed41202/`, and the 85.73
       and 85.20 with the archived `sk_6.st` (seed 7556).
-    - Recorded without swim; it needs nothing special. Optimisation is still in progress. Redux timer 4758 VIs =
-      79.30, red coin star dance on sample 2424 (verified in Mupen).
+    - Recorded without swim; it needs nothing special. Optimisation is still in progress. Redux timer 4750 VIs =
+      79.17, red coin star dance on sample 2420 (verified in Mupen).
 - **Find the 8 Red Coins + 100c** (`bom_6.reds100c.49_10.m64`, 2026-10-09): 93 frames faster than the 52.20 and 6
   faster than the 49.30 (the older movies are in `archive/1-bob-omb-mountain/`; the 49.30's state is
   `archive/1-bob-omb-mountain/bom_6.49_30.st`). It clones the red coin star: Mario
