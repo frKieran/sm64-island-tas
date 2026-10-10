@@ -38,7 +38,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 - **The 8 Red Coins Again + 100c**: two records, and only the old one needs SM64Lua's swim button.
   - `archive/2-sky-kingdom/100c.skykingdom.swim_baked.m64` (90.27) was recorded with SM64Lua's swim on and desyncs without it. Its copy has
     those A presses written into the inputs, so it plays on its own. **Turn SM64Lua's swim button off** for it.
-  - `sk_6.reds100c.79_13.m64` (79.13, 2026-10-10): 3.97 s faster than the 83.10 (238 VIs), on Kieran's macro changes.
+  - `sk_6.reds100c.78_90.m64` (78.90, 2026-10-10): 4.20 s faster than the 83.10 (252 VIs), on Kieran's macro changes.
     - Both whomps on the way are killed with the fast 10-coin method: Mario stands at a corner of the lying whomp where
       Island's 4× level bounds make its back's floor reach past its walls, and alternates jumps that land on the back in
       the same frame with frames off it (a stand-on coin every 2 frames), then ground pounds for the other 5. The
@@ -47,7 +47,9 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
       dive on a faster run to BLJ 2: the rollout stops on the house's east wall and drifts back west, and after the
       quick turn the first long jump stops on its west wall (fv 0), which starts the BLJ.
     - The BLJ's speed is stopped at red 5 by walking off the platform's edge and landing back (Kieran's idea), not a
-      jump; red 5's rim is a dive grind (re-fitted on that stop, with fuller quarter steps and no braking frame), and red 6 is an out-and-back with the first two blue coins taken on the way out (Kieran's jump, dive and rollout
+      jump; red 5's rim is a dive grind (re-fitted on that stop, with fuller quarter steps and no braking frame). From
+      there Kieran's new way to the climb (a long jump into a wall kick, a speed kick) reaches the old side flip's
+      turnaround spot 7 frames sooner, so the side flip wall kick and everything after it play 7 frames earlier; red 6 is an out-and-back with the first two blue coins taken on the way out (Kieran's jump, dive and rollout
       line) and a turn-around side flip at red 6; a speed kick (A held) on the way back to red 7's slope.
     - Red 7 to red 8 was modelled (the butt slide air's turn, the freefall, the speed kick, the walk-turn) and searched
       in the exact simulator: the butt slide air turns right then slightly left so the freefall faces 540 units more
@@ -62,11 +64,11 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
       approach, so the dance ends facing west and the final trip (re-searched) starts with route 2's punch. The
       100-coin star's save prompt is answered "No" (saving lags 21 VIs).
     - It plays from `sk_6.st` with an ideal entry RNG seed (gRandomSeed16 = 18125), which makes every whomp coin land.
-      Older: the 79.17, the 79.30, the 79.33, the 79.47, the 79.53, the 79.63, the 79.83 and the 80.18 in `archive/2-sky-kingdom/seed18125/`, the 83.10 in
+      Older: the 79.13, the 79.17, the 79.30, the 79.33, the 79.47, the 79.53, the 79.63, the 79.83 and the 80.18 in `archive/2-sky-kingdom/seed18125/`, the 83.10 in
       `seed46221/` (seed 46221), the 83.73 in `seed41202/`, and the 85.73
       and 85.20 with the archived `sk_6.st` (seed 7556).
-    - Recorded without swim; it needs nothing special. Optimisation is still in progress. Redux timer 4748 VIs =
-      79.13, red coin star dance on sample 2419 (verified in Mupen).
+    - Recorded without swim; it needs nothing special. Optimisation is still in progress. Redux timer 4734 VIs =
+      78.90, red coin star dance on sample 2412 (verified in Mupen).
 - **Find the 8 Red Coins + 100c** (`bom_6.reds100c.49_10.m64`, 2026-10-09): 93 frames faster than the 52.20 and 6
   faster than the 49.30 (the older movies are in `archive/1-bob-omb-mountain/`; the 49.30's state is
   `archive/1-bob-omb-mountain/bom_6.49_30.st`). It clones the red coin star: Mario
