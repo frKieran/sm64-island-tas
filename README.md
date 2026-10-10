@@ -38,7 +38,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 - **The 8 Red Coins Again + 100c**: two records, and only the old one needs SM64Lua's swim button.
   - `archive/2-sky-kingdom/100c.skykingdom.swim_baked.m64` (90.27) was recorded with SM64Lua's swim on and desyncs without it. Its copy has
     those A presses written into the inputs, so it plays on its own. **Turn SM64Lua's swim button off** for it.
-  - `sk_6.reds100c.79_47.m64` (79.47, 2026-10-10): 3.63 s faster than the 83.10 (218 VIs), on Kieran's macro changes.
+  - `sk_6.reds100c.79_33.m64` (79.33, 2026-10-10): 3.77 s faster than the 83.10 (226 VIs), on Kieran's macro changes.
     - Both whomps on the way are killed with the fast 10-coin method: Mario stands at a corner of the lying whomp where
       Island's 4× level bounds make its back's floor reach past its walls, and alternates jumps that land on the back in
       the same frame with frames off it (a stand-on coin every 2 frames), then ground pounds for the other 5. The
@@ -47,18 +47,18 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
       dive on a faster run to BLJ 2: the rollout stops on the house's east wall and drifts back west, and after the
       quick turn the first long jump stops on its west wall (fv 0), which starts the BLJ.
     - The BLJ's speed is stopped at red 5 by walking off the platform's edge and landing back (Kieran's idea), not a
-      jump; red 5's rim is a dive grind (re-fitted on that stop, with fuller quarter steps and no braking frame), and red 6 is an out-and-back with the first two blue coins taken on the way out and
-      a turn-around side flip at red 6.
+      jump; red 5's rim is a dive grind (re-fitted on that stop, with fuller quarter steps and no braking frame), and red 6 is an out-and-back with the first two blue coins taken on the way out (Kieran's jump, dive and rollout
+      line) and a turn-around side flip at red 6; a speed kick (A held) on the way back to red 7's slope.
     - The archway coin line is skipped (the second whomp's 5 extra coins replace it); red 7, the bridge line, and red 8
       as the 100th coin, then a triple jump grabs the 100-coin star. The camera is turned the other way for the red 8
       approach, so the dance ends facing west and the final trip (re-searched) starts with route 2's punch. The
       100-coin star's save prompt is answered "No" (saving lags 21 VIs).
     - It plays from `sk_6.st` with an ideal entry RNG seed (gRandomSeed16 = 18125), which makes every whomp coin land.
-      Older: the 79.53, the 79.63, the 79.83 and the 80.18 in `archive/2-sky-kingdom/seed18125/`, the 83.10 in
+      Older: the 79.47, the 79.53, the 79.63, the 79.83 and the 80.18 in `archive/2-sky-kingdom/seed18125/`, the 83.10 in
       `seed46221/` (seed 46221), the 83.73 in `seed41202/`, and the 85.73
       and 85.20 with the archived `sk_6.st` (seed 7556).
-    - Recorded without swim; it needs nothing special. Optimisation is still in progress. Redux timer 4768 VIs =
-      79.47, red coin star dance on sample 2429 (verified in Mupen).
+    - Recorded without swim; it needs nothing special. Optimisation is still in progress. Redux timer 4760 VIs =
+      79.33, red coin star dance on sample 2425 (verified in Mupen).
 - **Find the 8 Red Coins + 100c** (`bom_6.reds100c.49_10.m64`, 2026-10-09): 93 frames faster than the 52.20 and 6
   faster than the 49.30 (the older movies are in `archive/1-bob-omb-mountain/`; the 49.30's state is
   `archive/1-bob-omb-mountain/bom_6.49_30.st`). It clones the red coin star: Mario
@@ -192,7 +192,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | In the Wall | 16.97 | [sk_1.inthewall.16_97.m64](2-sky-kingdom/sk_1.inthewall.16_97.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | Listen to What the Bob-omb Has to Say to You | 10.23 | [sk_1.listen.10_23.m64](2-sky-kingdom/sk_1.listen.10_23.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | The Four Pillars | 19.6 | [sk_1.pillars.19_60.m64](2-sky-kingdom/sk_1.pillars.19_60.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
-| The 8 Red Coins Again + 100c | 79.47 | [sk_6.reds100c.79_47.m64](2-sky-kingdom/sk_6.reds100c.79_47.m64) | [sk_6.st](2-sky-kingdom/sk_6.st) |
+| The 8 Red Coins Again + 100c | 79.33 | [sk_6.reds100c.79_33.m64](2-sky-kingdom/sk_6.reds100c.79_33.m64) | [sk_6.st](2-sky-kingdom/sk_6.st) |
 | Burn the Big Bully | 15.83 | [lp_1.bully.15_83.m64](3-lava-plaza/lp_1.bully.15_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | In the Corner | 14.13 | [lp_1.corner.14_13.m64](3-lava-plaza/lp_1.corner.14_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | At the Top of the Volcano | 11.83 | [lp_1.volcano.11_83.m64](3-lava-plaza/lp_1.volcano.11_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
