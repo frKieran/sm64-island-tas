@@ -38,7 +38,23 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 - **The 8 Red Coins Again + 100c**: two records, and only the old one needs SM64Lua's swim button.
   - `archive/2-sky-kingdom/100c.skykingdom.swim_baked.m64` (90.27) was recorded with SM64Lua's swim on and desyncs without it. Its copy has
     those A presses written into the inputs, so it plays on its own. **Turn SM64Lua's swim button off** for it.
-  - `sk_6.reds100c.78_73.m64` (78.73, 2026-10-10): 4.37 s faster than the 83.10 (262 VIs), on Kieran's macro changes.
+  - `sk_6.reds100c.77_60.m64` (77.60, 2026-10-11): 68 VIs faster than the 78.73 (34 frames), 5.50 s faster than the
+    83.10, on Kieran's macro changes. Everything up to the second whomp is new; from the second whomp's coins on it is
+    the 78.73, 34 frames earlier.
+    - The 5 coin rings take 39 coins (one ring coin is skipped; red 8 is exactly the 100th coin), and the exit is
+      re-planned into the double jump: 9 frames.
+    - Out of the first whomp: Kieran's long jump exit, a side flip almost straight into the wall, and B out of the
+      wall kick onto red 2's ledge. A dive grind stops Mario at red 2's edge (dive grind solver, the idle 0.49 inside
+      the coin), a second dive grind heads back east, and a double jump dives onto the east block with its takeoff's
+      slide-off and landing both on full quarter steps; the crouch slide is fitted so the long jump hits the GWK wall
+      exactly where the old one did, 20 frames earlier. Then Kieran's GWK segment and the second whomp's quick kill:
+      its ground pound 22 frames sooner than the 78.73's.
+    - The second whomp's ground pound coins: a jump kick from idle toward them, a crouch slide and long jump through
+      them, and the second crouch slide 3 frames sooner, fitted so the 78.73's long jump lands where it did (0.0024).
+    - Both whomps' ground pound coins scatter by RNG: this seed takes all 5 at both (about 20% of entry indices for the
+      first whomp's exit, about 5-9% for the second whomp's pickup).
+  - `archive/2-sky-kingdom/seed18125/sk_6.reds100c.78_73.m64` (78.73, 2026-10-10): 4.37 s faster than the 83.10 (262
+    VIs), on Kieran's macro changes.
     - Both whomps on the way are killed with the fast 10-coin method: Mario stands at a corner of the lying whomp where
       Island's 4× level bounds make its back's floor reach past its walls, and alternates jumps that land on the back in
       the same frame with frames off it (a stand-on coin every 2 frames), then ground pounds for the other 5. The
@@ -70,12 +86,14 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
       as the 100th coin, then a triple jump grabs the 100-coin star. The camera is turned the other way for the red 8
       approach, so the dance ends facing west and the final trip (re-searched) starts with route 2's punch. The
       100-coin star's save prompt is answered "No" (saving lags 21 VIs).
-    - It plays from `sk_6.st` with an ideal entry RNG seed (gRandomSeed16 = 18125), which makes every whomp coin land.
-      Older: the 78.80, the 78.83, the 78.90, the 79.13, the 79.17, the 79.30, the 79.33, the 79.47, the 79.53, the 79.63, the 79.83 and the 80.18 in `archive/2-sky-kingdom/seed18125/`, the 83.10 in
-      `seed46221/` (seed 46221), the 83.73 in `seed41202/`, and the 85.73
-      and 85.20 with the archived `sk_6.st` (seed 7556).
-    - Recorded without swim; it needs nothing special. Optimisation is still in progress. Redux timer 4724 VIs =
-      78.73, red coin star dance on sample 2407 (verified in Mupen).
+    - It plays from `archive/2-sky-kingdom/seed18125/sk_6.st` (gRandomSeed16 = 18125).
+  - The 77.60 plays from `sk_6.st` with an ideal entry RNG seed (gRandomSeed16 = 33736, cycle index 7700, near the
+    standard state's 7742), which makes every whomp coin land. Older: the 78.73, the 78.80, the 78.83, the 78.90, the
+    79.13, the 79.17, the 79.30, the 79.33, the 79.47, the 79.53, the 79.63, the 79.83 and the 80.18 in
+    `archive/2-sky-kingdom/seed18125/`, the 83.10 in `seed46221/` (seed 46221), the 83.73 in `seed41202/`, and the
+    85.73 and 85.20 with the archived `sk_6.st` (seed 7556).
+  - Recorded without swim; it needs nothing special. Redux timer 4656 VIs = 77.60, red coin star dance on sample 2373
+    (verified in Mupen). A final micro-optimisation pass and the red 6 BLJ route are still to come.
 - **Find the 8 Red Coins + 100c** (`bom_6.reds100c.49_10.m64`, 2026-10-09): 93 frames faster than the 52.20 and 6
   faster than the 49.30 (the older movies are in `archive/1-bob-omb-mountain/`; the 49.30's state is
   `archive/1-bob-omb-mountain/bom_6.49_30.st`). It clones the red coin star: Mario
@@ -209,7 +227,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | In the Wall | 16.97 | [sk_1.inthewall.16_97.m64](2-sky-kingdom/sk_1.inthewall.16_97.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | Listen to What the Bob-omb Has to Say to You | 10.23 | [sk_1.listen.10_23.m64](2-sky-kingdom/sk_1.listen.10_23.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | The Four Pillars | 19.6 | [sk_1.pillars.19_60.m64](2-sky-kingdom/sk_1.pillars.19_60.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
-| The 8 Red Coins Again + 100c | 79.33 | [sk_6.reds100c.79_33.m64](2-sky-kingdom/sk_6.reds100c.79_33.m64) | [sk_6.st](2-sky-kingdom/sk_6.st) |
+| The 8 Red Coins Again + 100c | 77.6 | [sk_6.reds100c.77_60.m64](2-sky-kingdom/sk_6.reds100c.77_60.m64) | [sk_6.st](2-sky-kingdom/sk_6.st) |
 | Burn the Big Bully | 15.83 | [lp_1.bully.15_83.m64](3-lava-plaza/lp_1.bully.15_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | In the Corner | 14.13 | [lp_1.corner.14_13.m64](3-lava-plaza/lp_1.corner.14_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | At the Top of the Volcano | 11.83 | [lp_1.volcano.11_83.m64](3-lava-plaza/lp_1.volcano.11_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
