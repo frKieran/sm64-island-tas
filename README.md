@@ -35,13 +35,19 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 
 ## Notes
 
-- **At the Top of the Volcano** (Kieran, RsW): `lp_1.volcano.10_70.m64` (10.70, 2026-10-15) is 68 VIs (34 frames)
+- **At the Top of the Volcano** (Kieran, RsW): `lp_1.volcano.10_63.m64` (10.63, 2026-10-15) is 72 VIs (36 frames)
   faster than the 11.83. The older runs are in `archive/3-lava-plaza/`: the 11.83 (its author field says Toriku, an
-  artifact), the 10.97, the 10.87 and the 10.83.
-  - The 10.70 uses the 8-direction camera only (no R presses).
-  - Kieran's hand-TASed opening replaces the old jump kick / double jump / dive grind with a long jump and one dive
-    from walking: one crouch slide frame before each long jump and one dive slide frame before each rollout.
-  - It reaches the lava pool 4 frames sooner than the 10.83; the boosts after it are the 10.83's, 4 frames earlier.
+  artifact), the 10.97, the 10.87, the 10.83 and the 10.70.
+  - It uses the 8-direction camera only (no R presses).
+  - Kieran's hand-TASed opening (the 10.70) replaces the old jump kick / double jump / dive grind with a long jump and
+    one dive from walking: one crouch slide frame before each long jump and one dive slide frame before each rollout.
+    The 10.70 reached the lava pool 4 frames sooner than the 10.83.
+  - The 10.63 changes the crossing to the pool's island:
+    - From the second long jump's landing on the middle island, a dive and rollout reach the next island, instead
+      of a long jump out of the landing. A rollout landing has no long jump landing lag, so Mario walks on at once.
+    - 9 walking frames, then the long jump to the pool's island 6 frames sooner. It lands 5 frames sooner, and the
+      floor boost in the pool comes 2 frames sooner, at the same spot.
+    - The boosts after it were re-searched from there.
   - The route from the pool:
   - After the last long jump landing: one walking frame, then a dive into the lava pool (a floor boost).
   - Mario then touches the protrusion's lava wall at y 498 for a second boost, up the rim's outer face.
@@ -268,7 +274,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | The 8 Red Coins Again + 100c | 73.57 | [sk_2.reds100c.73_57.m64](2-sky-kingdom/sk_2.reds100c.73_57.m64) | [sk_2.st](2-sky-kingdom/sk_2.st) |
 | Burn the Big Bully | 15.83 | [lp_1.bully.15_83.m64](3-lava-plaza/lp_1.bully.15_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | In the Corner | 14.13 | [lp_1.corner.14_13.m64](3-lava-plaza/lp_1.corner.14_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
-| At the Top of the Volcano | 10.7 | [lp_1.volcano.10_70.m64](3-lava-plaza/lp_1.volcano.10_70.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
+| At the Top of the Volcano | 10.63 | [lp_1.volcano.10_63.m64](3-lava-plaza/lp_1.volcano.10_63.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Mysterious "S" | 13.13 | [lp_1.mysterious_s.13_13.m64](3-lava-plaza/lp_1.mysterious_s.13_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Wooden Platform | 7.63 | [lp_1.platform.7_63.m64](3-lava-plaza/lp_1.platform.7_63.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | You Know What Red Coins + 100c | 48.9 | [lp_1.reds100c.48_90.m64](3-lava-plaza/lp_1.reds100c.48_90.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
