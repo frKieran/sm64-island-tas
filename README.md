@@ -35,6 +35,16 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 
 ## Notes
 
+- **The Mysterious "S"** (Kieran, RsW): `lp_1.mysterious_s.12_60.m64` (12.60, 2026-10-15) is 32 VIs (16 frames)
+  faster than the 13.13 (in `archive/3-lava-plaza/`).
+  - It shares the volcano's opening up to the long jump from the middle island. That jump hits the pool island's tip
+    wall, and the wall kick carries Mario over the pool to the rim.
+  - From the rim the old route's dives, rollouts and slide kick lead to the S. Its last rollout lands on the S's top
+    bar at the edge, and the ending follows:
+    - a jump kick across to the left bar;
+    - a double jump into a ground pound, timed so the pound's first frame lifts Mario into the star.
+  - The old single jump + ground pound ending was compared from the same crouch slide. It needs the top bar's west
+    end: the earliest landing there is 3 frames later, so it comes out at least a frame slower.
 - **At the Top of the Volcano** (Kieran, RsW): `lp_1.volcano.10_50.m64` (10.50, 2026-10-15) is 80 VIs (40 frames)
   faster than the 11.83. The older runs are in `archive/3-lava-plaza/`: the 11.83 (its author field says Toriku, an
   artifact), the 10.97, the 10.87, the 10.83, the 10.70 and the 10.63.
@@ -294,7 +304,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | Burn the Big Bully | 15.83 | [lp_1.bully.15_83.m64](3-lava-plaza/lp_1.bully.15_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | In the Corner | 14.13 | [lp_1.corner.14_13.m64](3-lava-plaza/lp_1.corner.14_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | At the Top of the Volcano | 10.5 | [lp_1.volcano.10_50.m64](3-lava-plaza/lp_1.volcano.10_50.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
-| The Mysterious "S" | 13.13 | [lp_1.mysterious_s.13_13.m64](3-lava-plaza/lp_1.mysterious_s.13_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
+| The Mysterious "S" | 12.6 | [lp_1.mysterious_s.12_60.m64](3-lava-plaza/lp_1.mysterious_s.12_60.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Wooden Platform | 7.63 | [lp_1.platform.7_63.m64](3-lava-plaza/lp_1.platform.7_63.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | You Know What Red Coins + 100c | 47.7 | [lp_1.reds100c.47_70.m64](3-lava-plaza/lp_1.reds100c.47_70.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | At the Top of the Tower | 20.2 | [wjt_1.toptower.20_20.m64](4-walljump-training/wjt_1.toptower.20_20.m64) | [wjt_1.st](4-walljump-training/wjt_1.st) |
