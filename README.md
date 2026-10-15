@@ -86,9 +86,19 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
     on the tunnel lava, so the star dance starts at once. Mario ends with 2.5 health (two lava hits).
   - The 10.97 kept the 11.83's start to the lava wall. It turned around at a no-floor sliver on the rim's edge, was
     pushed in by the tunnel's other side wall, and re-boosted on the tunnel lava before the star.
-- **You Know What Red Coins + 100c** (Kieran): `lp_1.reds100c.47_47.m64` (47.47, 2026-10-15) is 86 VIs (43 frames)
-  faster than the 48.90 and 14 VIs faster than the 47.70 (both in `archive/3-lava-plaza/`).
-  - The 47.47 is the 47.70's route, re-optimized in the exact simulator stretch by stretch and joined:
+- **You Know What Red Coins + 100c** (Kieran): `lp_1.reds100c.47_40.m64` (47.40, 2026-10-15) is 90 VIs (45 frames)
+  faster than the 48.90 and 4 VIs faster than the 47.47 (the 47.47, 47.70 and 48.90 are in `archive/3-lava-plaza/`).
+  - The 47.40 is the 47.47 with its last stretch, from r6's last coins to the red coin star, re-planned in the exact
+    simulator:
+    - r6's last legs still take the 100th coin on the same frame, but 40 units nearer the red coin star, and the side
+      flip before the 100c star's ground pound grab now goes toward it (9 more). Mario dances 46 units nearer.
+    - The camera is turned before the 100c star's cutscene holds it (C-left 5 frames before the 100th coin, and again
+      on the hold's first free frame), so Mario dances facing −12288 instead of −6144.
+    - After the dance: a punch-cancel walk in that facing, a short hop, then the crouch slide and long jump from r6's
+      west edge 2 frames sooner. A walk from idle is 1 frame slower there, an A-held kick 3 frames slower.
+
+    Mupen-verified: Redux 2844 VIs, the castle loads on the movie's last frame.
+  - The 47.47 was the 47.70's route, re-optimized in the exact simulator stretch by stretch and joined:
     - a tighter N2 loop (neutral-stick braking in its landing), so the lava boost starts 2 frames sooner;
     - r1's walk, r2's last leg, r4's first visit and r5's exit long jump (landing on r6 at speed 52): 4 more frames;
     - a speed kick on r8's exit straight, so the long jump into r6's SE pocket starts a frame sooner.
@@ -330,7 +340,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | At the Top of the Volcano | 10.5 | [lp_1.volcano.10_50.m64](3-lava-plaza/lp_1.volcano.10_50.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Mysterious "S" | 12.6 | [lp_1.mysterious_s.12_60.m64](3-lava-plaza/lp_1.mysterious_s.12_60.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Wooden Platform | 7.63 | [lp_1.platform.7_63.m64](3-lava-plaza/lp_1.platform.7_63.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
-| You Know What Red Coins + 100c | 47.47 | [lp_1.reds100c.47_47.m64](3-lava-plaza/lp_1.reds100c.47_47.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
+| You Know What Red Coins + 100c | 47.40 | [lp_1.reds100c.47_40.m64](3-lava-plaza/lp_1.reds100c.47_40.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | At the Top of the Tower | 20.2 | [wjt_1.toptower.20_20.m64](4-walljump-training/wjt_1.toptower.20_20.m64) | [wjt_1.st](4-walljump-training/wjt_1.st) |
 | At the Bottom of the Tower | 17.4 | [wjt_2.bottomtower.17_40.m64](4-walljump-training/wjt_2.bottomtower.17_40.m64) | [wjt_2.st](4-walljump-training/wjt_2.st) |
 | Hide in the 2nd Platform | 13.83 | [wjt_1.platform2.13_83.m64](4-walljump-training/wjt_1.platform2.13_83.m64) | [wjt_1.st](4-walljump-training/wjt_1.st) |
