@@ -35,19 +35,23 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 
 ## Notes
 
-- **At the Top of the Volcano** (Kieran, RsW): `lp_1.volcano.10_63.m64` (10.63, 2026-10-15) is 72 VIs (36 frames)
+- **At the Top of the Volcano** (Kieran, RsW): `lp_1.volcano.10_50.m64` (10.50, 2026-10-15) is 80 VIs (40 frames)
   faster than the 11.83. The older runs are in `archive/3-lava-plaza/`: the 11.83 (its author field says Toriku, an
-  artifact), the 10.97, the 10.87, the 10.83 and the 10.70.
+  artifact), the 10.97, the 10.87, the 10.83, the 10.70 and the 10.63.
   - It uses the 8-direction camera only (no R presses).
   - Kieran's hand-TASed opening (the 10.70) replaces the old jump kick / double jump / dive grind with a long jump and
     one dive from walking: one crouch slide frame before each long jump and one dive slide frame before each rollout.
     The 10.70 reached the lava pool 4 frames sooner than the 10.83.
-  - The 10.63 changes the crossing to the pool's island:
-    - From the second long jump's landing on the middle island, a dive and rollout reach the next island, instead
-      of a long jump out of the landing. A rollout landing has no long jump landing lag, so Mario walks on at once.
-    - 9 walking frames, then the long jump to the pool's island 6 frames sooner. It lands 5 frames sooner, and the
-      floor boost in the pool comes 2 frames sooner, at the same spot.
-    - The boosts after it were re-searched from there.
+  - The 10.63 crossed from the middle island to the next by a dive and rollout (no long jump landing lag), then took
+    a long jump to the pool's island: the pool boost 2 frames sooner.
+  - The 10.50 is Kieran's Mysterious "S" route up to the long jump from that island. It uses:
+    - a long jump out of the first landing with .99 straining;
+    - misaligned landings on the islands' edges;
+    - the dive and rollout crossing, which arrives facing nearly south, so only 4 walking frames are needed before
+      the long jump.
+  - The long jump hits the pool island's tip wall, and Mario wall-kicks off it. A is released early in the kick,
+    which cuts the upward speed. A dive at the end lands on the rim, and the dive slide enters the lava pool: the
+    floor boost on row 288, 4 frames sooner, at the same spot. The boosts after it were re-searched from there.
   - The route from the pool:
   - After the last long jump landing: one walking frame, then a dive into the lava pool (a floor boost).
   - Mario then touches the protrusion's lava wall at y 498 for a second boost, up the rim's outer face.
