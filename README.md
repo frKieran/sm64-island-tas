@@ -35,6 +35,21 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 
 ## Notes
 
+- **The Four Pillars** (Kieran): `sk_1.pillars.19_40.m64` (19.40, 2026-10-15) is 12 VIs (6 frames) faster than the
+  19.60 (in `archive/2-sky-kingdom/`).
+  - The opening is Kieran's new Whomp King start. A better crouch-slide angle sets up the pillar wall kick near the
+    first red coin, so Mario lands on the −980 step faster and the triple jump comes a frame earlier (input 289,
+    was 290).
+  - Kieran's 19.43 route follows from the triple jump on:
+    - the east steps onto the plateau;
+    - the corridor's dives and rollouts;
+    - two long jumps over the 284 platform;
+    - a side flip and a wall kick between the 780 step and the tower;
+    - a double jump into the ! box, and a ground pound held through the star's time stop.
+  - The resync changed three sticks: the last walking frame before the steps' single jump (yaw 24576, the nearest
+    full-tilt yaw to the 19.43's 24593 at this camera), the walking frame before the side flip, and the side flip's aim.
+  - The box breaks on row 509 and the star dance exit is on row 626. Mupen-verified: Redux 1164 VIs, the castle loads
+    on the movie's last frame.
 - **The Mysterious "S"** (Kieran, RsW, Toriku): `lp_1.mysterious_s.12_60.m64` (12.60, 2026-10-15) is 32 VIs (16 frames)
   faster than the 13.13 (in `archive/3-lava-plaza/`).
   - It shares the volcano's opening up to the long jump from the middle island. That jump hits the pool island's tip
@@ -299,7 +314,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | At the Other End of the Kingdom | 17.33 | [sk_1.otherend.17_33.m64](2-sky-kingdom/sk_1.otherend.17_33.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | In the Wall | 16.97 | [sk_1.inthewall.16_97.m64](2-sky-kingdom/sk_1.inthewall.16_97.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | Listen to What the Bob-omb Has to Say to You | 10.23 | [sk_1.listen.10_23.m64](2-sky-kingdom/sk_1.listen.10_23.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
-| The Four Pillars | 19.6 | [sk_1.pillars.19_60.m64](2-sky-kingdom/sk_1.pillars.19_60.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
+| The Four Pillars | 19.4 | [sk_1.pillars.19_40.m64](2-sky-kingdom/sk_1.pillars.19_40.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | The 8 Red Coins Again + 100c | 73.57 | [sk_2.reds100c.73_57.m64](2-sky-kingdom/sk_2.reds100c.73_57.m64) | [sk_2.st](2-sky-kingdom/sk_2.st) |
 | Burn the Big Bully | 15.83 | [lp_1.bully.15_83.m64](3-lava-plaza/lp_1.bully.15_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | In the Corner | 14.13 | [lp_1.corner.14_13.m64](3-lava-plaza/lp_1.corner.14_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
