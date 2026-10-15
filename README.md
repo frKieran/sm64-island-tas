@@ -61,6 +61,21 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
     on the tunnel lava, so the star dance starts at once. Mario ends with 2.5 health (two lava hits).
   - The 10.97 kept the 11.83's start to the lava wall. It turned around at a no-floor sliver on the rim's edge, was
     pushed in by the tunnel's other side wall, and re-boosted on the tunnel lava before the star.
+- **You Know What Red Coins + 100c** (Kieran): `lp_1.reds100c.47_70.m64` (47.70, 2026-10-15) is 72 VIs (36 frames)
+  faster than the 48.90, which is in `archive/3-lava-plaza/`. Identical to the 48.90 before input 897.
+  - **A new route after the r5 ring:** the double star spawn (DSS) is on the r6 ring instead of the last ring (r8).
+    - r6's first visit takes only 3 coins on the way to the long jump toward r7. As in the 48.90, it ends in a ledge
+      grab: a long jump from r6's edge is exactly 2 units short of r7's top.
+    - Then r7 and r8 in full; r8's east coin is the extra coin the route needs.
+    - Then a long jump back that lands in a 4x4-unit pocket at r6's SE corner, where a landing still works 49 units
+      below the top.
+    - Then r6's other coins: red 8, then the 100th coin 5 frames later. In Lava Plaza the hidden red coin star updates
+      before the reds, so the gap is 5 frames, not 4.
+    - After the dance, one long jump to the red coin star's island.
+  - **Kieran's hand TAS of that route** (dance on 1478, with the coin count hacked +1) was made legitimate and
+    refined in the exact simulator: r8 with its east coin, r6's second visit and the post-dance trip re-searched. Then
+    Mupen-verified: Redux 2862 VIs, the castle loads on the movie's last frame.
+  - Rerecords 2134: Kieran's file, which includes the 48.90's 1617.
 - **The 8 Red Coins Again + 100c**: two records, and only the old one needs SM64Lua's swim button.
   - `archive/2-sky-kingdom/100c.skykingdom.swim_baked.m64` (90.27) was recorded with SM64Lua's swim on and desyncs without it. Its copy has
     those A presses written into the inputs, so it plays on its own. **Turn SM64Lua's swim button off** for it.
@@ -281,7 +296,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | At the Top of the Volcano | 10.5 | [lp_1.volcano.10_50.m64](3-lava-plaza/lp_1.volcano.10_50.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Mysterious "S" | 13.13 | [lp_1.mysterious_s.13_13.m64](3-lava-plaza/lp_1.mysterious_s.13_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Wooden Platform | 7.63 | [lp_1.platform.7_63.m64](3-lava-plaza/lp_1.platform.7_63.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
-| You Know What Red Coins + 100c | 48.9 | [lp_1.reds100c.48_90.m64](3-lava-plaza/lp_1.reds100c.48_90.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
+| You Know What Red Coins + 100c | 47.7 | [lp_1.reds100c.47_70.m64](3-lava-plaza/lp_1.reds100c.47_70.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | At the Top of the Tower | 20.2 | [wjt_1.toptower.20_20.m64](4-walljump-training/wjt_1.toptower.20_20.m64) | [wjt_1.st](4-walljump-training/wjt_1.st) |
 | At the Bottom of the Tower | 17.4 | [wjt_2.bottomtower.17_40.m64](4-walljump-training/wjt_2.bottomtower.17_40.m64) | [wjt_2.st](4-walljump-training/wjt_2.st) |
 | Hide in the 2nd Platform | 13.83 | [wjt_1.platform2.13_83.m64](4-walljump-training/wjt_1.platform2.13_83.m64) | [wjt_1.st](4-walljump-training/wjt_1.st) |
