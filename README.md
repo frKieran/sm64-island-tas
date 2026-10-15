@@ -35,6 +35,13 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 
 ## Notes
 
+- **At the Top of the Volcano** (Kieran, RsW): `lp_1.volcano.10_97.m64` (10.97, 2026-10-15) is 52 VIs (26 frames)
+  faster than the 11.83 (`archive/3-lava-plaza/`; its author field says Toriku, an artifact).
+  - Everything up to the lava wall contact is the 11.83's. From there the lava boost alone reaches the star.
+  - It rises along the rim's outer face, and a quarter step at the rim's top edge finds no floor. That is a wall hit
+    with no wall, so the boost turns 180 degrees and keeps its speed (fv 29).
+  - Back down the face, the star tunnel's side wall pushes Mario into the tunnel. A second lava boost off the
+    tunnel's floor reaches the star. Mario ends with 2.5 health (two lava hits).
 - **The 8 Red Coins Again + 100c**: two records, and only the old one needs SM64Lua's swim button.
   - `archive/2-sky-kingdom/100c.skykingdom.swim_baked.m64` (90.27) was recorded with SM64Lua's swim on and desyncs without it. Its copy has
     those A presses written into the inputs, so it plays on its own. **Turn SM64Lua's swim button off** for it.
@@ -242,7 +249,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | The 8 Red Coins Again + 100c | 73.67 | [sk_2.reds100c.73_67.m64](2-sky-kingdom/sk_2.reds100c.73_67.m64) | [sk_2.st](2-sky-kingdom/sk_2.st) |
 | Burn the Big Bully | 15.83 | [lp_1.bully.15_83.m64](3-lava-plaza/lp_1.bully.15_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | In the Corner | 14.13 | [lp_1.corner.14_13.m64](3-lava-plaza/lp_1.corner.14_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
-| At the Top of the Volcano | 11.83 | [lp_1.volcano.11_83.m64](3-lava-plaza/lp_1.volcano.11_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
+| At the Top of the Volcano | 10.97 | [lp_1.volcano.10_97.m64](3-lava-plaza/lp_1.volcano.10_97.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Mysterious "S" | 13.13 | [lp_1.mysterious_s.13_13.m64](3-lava-plaza/lp_1.mysterious_s.13_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Wooden Platform | 7.63 | [lp_1.platform.7_63.m64](3-lava-plaza/lp_1.platform.7_63.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | You Know What Red Coins + 100c | 48.9 | [lp_1.reds100c.48_90.m64](3-lava-plaza/lp_1.reds100c.48_90.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
