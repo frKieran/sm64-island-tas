@@ -51,11 +51,21 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 - **The 8 Red Coins Again + 100c**: two records, and only the old one needs SM64Lua's swim button.
   - `archive/2-sky-kingdom/100c.skykingdom.swim_baked.m64` (90.27) was recorded with SM64Lua's swim on and desyncs without it. Its copy has
     those A presses written into the inputs, so it plays on its own. **Turn SM64Lua's swim button off** for it.
-  - `sk_2.reds100c.73_67.m64` (73.67, 2026-10-15): the 73.70 with its final BLJ re-aimed, 2 VIs (1 frame) faster.
-    Identical to the 73.70 up to the stop under red 7 (row 2170); then one walking frame turns Mario to facing 15916
-    instead of 16058, so the hyperspeed fall skirts the north face of the y 78 plateau below and lands closer to the red
-    coin star: one walking frame instead of two. Landing on the star itself is ruled out by that plateau. Plays from
-    `sk_2.st`.
+  - `sk_2.reds100c.73_57.m64` (73.57, 2026-10-15): the 73.67 with the goomba killed earlier for the Double Star
+    Spawn, 6 VIs (3 frames) faster.
+    - Two RNG levers change: no dust on inputs 1224 and 1526. With them, the goomba stands on the ledge past the
+      double jump, and Mario dives out of the double jump and slides into it (the kill on row 1796, 6 earlier).
+    - The rollout timing after the kill sets the coin's draw: each dive-slide frame before the goomba dies makes a dust
+      puff, 4 RNG calls.
+    - Red 8 and the goomba's coin (the 100th) are taken 4 frames apart on rows 1834 and 1838, 3 earlier. The 100-coin
+      star is grabbed and danced at the same spot as before, 3 frames earlier.
+    - The rest is the 73.67's, 3 frames earlier. Its sticks are re-aimed for the live camera, and its final BLJ is
+      re-fit from the stop under red 7, which comes out 0.13 units off.
+    - Plays from `sk_2.st`.
+  - `archive/2-sky-kingdom/seed24201/sk_2.reds100c.73_67.m64` (73.67, 2026-10-15): the 73.70 with its final BLJ
+    re-aimed, 2 VIs (1 frame) faster. Identical to the 73.70 up to the stop under red 7 (row 2170). Then one walking
+    frame turns Mario to facing 15916 instead of 16058, so the hyperspeed fall skirts the north face of the y 78 plateau
+    below and lands closer to the red coin star: one walking frame instead of two. Plays from `sk_2.st`.
   - `archive/2-sky-kingdom/seed24201/sk_2.reds100c.73_70.m64` (73.70, 2026-10-14, Kieran and Choux): 234 VIs faster
     than the 77.60 (117 frames), a new route. It is played in act 2 and plays from `sk_2.st`.
     - It was cut from Kieran's power-on run (`island_poweron_thru_sk100c.7370.m64`, the run up to this star) and
@@ -117,8 +127,8 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
     79.30, the 79.33, the 79.47, the 79.53, the 79.63, the 79.83 and the 80.18 in `archive/2-sky-kingdom/seed18125/`,
     the 83.10 in `seed46221/` (seed 46221), the 83.73 in `seed41202/`, and the 85.73 and 85.20 with the archived
     `sk_6.st` (seed 7556).
-  - Recorded without swim; it needs nothing special. Redux timer 4420 VIs = 73.67, red coin star dance on sample 2255
-    (verified in Mupen from `sk_2.st`); the 73.70 was 4422 VIs, dance on 2256.
+  - Recorded without swim; it needs nothing special. Redux timer 4414 VIs = 73.57, red coin star dance on sample 2252
+    (verified in Mupen from `sk_2.st`); the 73.67 was 4420 VIs, dance on 2255, and the 73.70 4422 VIs, dance on 2256.
 - **Find the 8 Red Coins + 100c** (`bom_6.reds100c.49_10.m64`, 2026-10-09): 93 frames faster than the 52.20 and 6
   faster than the 49.30 (the older movies are in `archive/1-bob-omb-mountain/`; the 49.30's state is
   `archive/1-bob-omb-mountain/bom_6.49_30.st`). It clones the red coin star: Mario
@@ -252,7 +262,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | In the Wall | 16.97 | [sk_1.inthewall.16_97.m64](2-sky-kingdom/sk_1.inthewall.16_97.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | Listen to What the Bob-omb Has to Say to You | 10.23 | [sk_1.listen.10_23.m64](2-sky-kingdom/sk_1.listen.10_23.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | The Four Pillars | 19.6 | [sk_1.pillars.19_60.m64](2-sky-kingdom/sk_1.pillars.19_60.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
-| The 8 Red Coins Again + 100c | 73.67 | [sk_2.reds100c.73_67.m64](2-sky-kingdom/sk_2.reds100c.73_67.m64) | [sk_2.st](2-sky-kingdom/sk_2.st) |
+| The 8 Red Coins Again + 100c | 73.57 | [sk_2.reds100c.73_57.m64](2-sky-kingdom/sk_2.reds100c.73_57.m64) | [sk_2.st](2-sky-kingdom/sk_2.st) |
 | Burn the Big Bully | 15.83 | [lp_1.bully.15_83.m64](3-lava-plaza/lp_1.bully.15_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | In the Corner | 14.13 | [lp_1.corner.14_13.m64](3-lava-plaza/lp_1.corner.14_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | At the Top of the Volcano | 10.83 | [lp_1.volcano.10_83.m64](3-lava-plaza/lp_1.volcano.10_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
