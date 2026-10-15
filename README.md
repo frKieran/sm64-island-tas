@@ -86,8 +86,15 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
     on the tunnel lava, so the star dance starts at once. Mario ends with 2.5 health (two lava hits).
   - The 10.97 kept the 11.83's start to the lava wall. It turned around at a no-floor sliver on the rim's edge, was
     pushed in by the tunnel's other side wall, and re-boosted on the tunnel lava before the star.
-- **You Know What Red Coins + 100c** (Kieran): `lp_1.reds100c.47_70.m64` (47.70, 2026-10-15) is 72 VIs (36 frames)
-  faster than the 48.90, which is in `archive/3-lava-plaza/`. Identical to the 48.90 before input 897.
+- **You Know What Red Coins + 100c** (Kieran): `lp_1.reds100c.47_47.m64` (47.47, 2026-10-15) is 86 VIs (43 frames)
+  faster than the 48.90 and 14 VIs faster than the 47.70 (both in `archive/3-lava-plaza/`).
+  - The 47.47 is the 47.70's route, re-optimized in the exact simulator stretch by stretch and joined:
+    - a tighter N2 loop (neutral-stick braking in its landing), so the lava boost starts 2 frames sooner;
+    - r1's walk, r2's last leg, r4's first visit and r5's exit long jump (landing on r6 at speed 52): 4 more frames;
+    - a speed kick on r8's exit straight, so the long jump into r6's SE pocket starts a frame sooner.
+
+    Mupen-verified: Redux 2848 VIs, the castle loads on the movie's last frame.
+  - The 47.70 was identical to the 48.90 before input 897.
   - **A new route after the r5 ring:** the double star spawn (DSS) is on the r6 ring instead of the last ring (r8).
     - r6's first visit takes only 3 coins on the way to the long jump toward r7. As in the 48.90, it ends in a ledge
       grab: a long jump from r6's edge is exactly 2 units short of r7's top.
@@ -321,7 +328,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | At the Top of the Volcano | 10.5 | [lp_1.volcano.10_50.m64](3-lava-plaza/lp_1.volcano.10_50.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Mysterious "S" | 12.6 | [lp_1.mysterious_s.12_60.m64](3-lava-plaza/lp_1.mysterious_s.12_60.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Wooden Platform | 7.63 | [lp_1.platform.7_63.m64](3-lava-plaza/lp_1.platform.7_63.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
-| You Know What Red Coins + 100c | 47.7 | [lp_1.reds100c.47_70.m64](3-lava-plaza/lp_1.reds100c.47_70.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
+| You Know What Red Coins + 100c | 47.47 | [lp_1.reds100c.47_47.m64](3-lava-plaza/lp_1.reds100c.47_47.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | At the Top of the Tower | 20.2 | [wjt_1.toptower.20_20.m64](4-walljump-training/wjt_1.toptower.20_20.m64) | [wjt_1.st](4-walljump-training/wjt_1.st) |
 | At the Bottom of the Tower | 17.4 | [wjt_2.bottomtower.17_40.m64](4-walljump-training/wjt_2.bottomtower.17_40.m64) | [wjt_2.st](4-walljump-training/wjt_2.st) |
 | Hide in the 2nd Platform | 13.83 | [wjt_1.platform2.13_83.m64](4-walljump-training/wjt_1.platform2.13_83.m64) | [wjt_1.st](4-walljump-training/wjt_1.st) |
