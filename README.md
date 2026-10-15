@@ -35,7 +35,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 
 ## Notes
 
-- **The Mysterious "S"** (Kieran, RsW): `lp_1.mysterious_s.12_60.m64` (12.60, 2026-10-15) is 32 VIs (16 frames)
+- **The Mysterious "S"** (Kieran, RsW, Toriku): `lp_1.mysterious_s.12_60.m64` (12.60, 2026-10-15) is 32 VIs (16 frames)
   faster than the 13.13 (in `archive/3-lava-plaza/`).
   - It shares the volcano's opening up to the long jump from the middle island. That jump hits the pool island's tip
     wall, and the wall kick carries Mario over the pool to the rim.
