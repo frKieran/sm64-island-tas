@@ -14,8 +14,8 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
     accepts, and the level loads 17 frames later.
   - Every state has the 30-star save (no star-count text boxes) and the act's cursor already set.
   - Single-star movies use ideal RNG: a state's RNG seed may be set for the movie that needs it (`bom_6.st`: seed
-    29428 for the red coins + 100c clone; `sk_6.st`: seed 18125 for the 8 Red Coins Again + 100c). The full run's
-    RNG comes from the stitched run instead.
+    29428 for the red coins + 100c clone; `sk_2.st`: seed 24201 for the 8 Red Coins Again + 100c, the power-on run's
+    own RNG). The full run's RNG comes from the stitched run instead.
 - **Castle states:** `castle_start` (file load), `castle_spawn1_star`, `castle_spawn2_star`, `castle_spawn1_death`.
   - Each sits on the castle's first frame. `castle_start` sits one frame earlier, because the castle's load frame
     already takes input (the dive).
@@ -38,8 +38,14 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 - **The 8 Red Coins Again + 100c**: two records, and only the old one needs SM64Lua's swim button.
   - `archive/2-sky-kingdom/100c.skykingdom.swim_baked.m64` (90.27) was recorded with SM64Lua's swim on and desyncs without it. Its copy has
     those A presses written into the inputs, so it plays on its own. **Turn SM64Lua's swim button off** for it.
-  - `sk_6.reds100c.77_60.m64` (77.60, 2026-10-11): 68 VIs faster than the 78.73 (34 frames), 5.50 s faster than the
-    83.10, on Kieran's macro changes. Everything up to the second whomp is new; from the second whomp's coins on it is
+  - `sk_2.reds100c.73_70.m64` (73.70, 2026-10-14, Kieran and Choux): 234 VIs faster than the 77.60 (117 frames), a
+    new route. It is played in act 2 and plays from `sk_2.st`.
+    - It was cut from Kieran's power-on run (`island_poweron_thru_sk100c.7370.m64`, the run up to this star) and
+      rebased onto the standard act 2 state: the level loads with the run's own RNG (`sk_2.st`'s seed 24201 is the
+      one that gives the power-on run's seed at the load), so its whomp coins land as they do in the full run.
+    - The first three red coins come on the same frames as in the 77.60; the route differs after the third.
+  - `archive/2-sky-kingdom/seed33736/sk_6.reds100c.77_60.m64` (77.60, 2026-10-11, with that folder's `sk_6.st`, seed
+    33736): 68 VIs faster than the 78.73 (34 frames), 5.50 s faster than the 83.10, on Kieran's macro changes. Everything up to the second whomp is new; from the second whomp's coins on it is
     the 78.73, 34 frames earlier.
     - The 5 coin rings take 39 coins (one ring coin is skipped; red 8 is exactly the 100th coin), and the exit is
       re-planned into the double jump: 9 frames.
@@ -87,13 +93,14 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
       approach, so the dance ends facing west and the final trip (re-searched) starts with route 2's punch. The
       100-coin star's save prompt is answered "No" (saving lags 21 VIs).
     - It plays from `archive/2-sky-kingdom/seed18125/sk_6.st` (gRandomSeed16 = 18125).
-  - The 77.60 plays from `sk_6.st` with an ideal entry RNG seed (gRandomSeed16 = 33736, cycle index 7700, near the
-    standard state's 7742), which makes every whomp coin land. Older: the 78.73, the 78.80, the 78.83, the 78.90, the
-    79.13, the 79.17, the 79.30, the 79.33, the 79.47, the 79.53, the 79.63, the 79.83 and the 80.18 in
-    `archive/2-sky-kingdom/seed18125/`, the 83.10 in `seed46221/` (seed 46221), the 83.73 in `seed41202/`, and the
-    85.73 and 85.20 with the archived `sk_6.st` (seed 7556).
-  - Recorded without swim; it needs nothing special. Redux timer 4656 VIs = 77.60, red coin star dance on sample 2373
-    (verified in Mupen). A final micro-optimisation pass and the red 6 BLJ route are still to come.
+  - The 77.60 played from an act 6 `sk_6.st` with an ideal entry RNG seed (gRandomSeed16 = 33736, cycle index 7700,
+    near the standard state's 7742), which made every whomp coin land; it and that state are in
+    `archive/2-sky-kingdom/seed33736/`. Older: the 78.73, the 78.80, the 78.83, the 78.90, the 79.13, the 79.17, the
+    79.30, the 79.33, the 79.47, the 79.53, the 79.63, the 79.83 and the 80.18 in `archive/2-sky-kingdom/seed18125/`,
+    the 83.10 in `seed46221/` (seed 46221), the 83.73 in `seed41202/`, and the 85.73 and 85.20 with the archived
+    `sk_6.st` (seed 7556).
+  - Recorded without swim; it needs nothing special. Redux timer 4422 VIs = 73.70, red coin star dance on sample 2256
+    (verified in Mupen from `sk_2.st`).
 - **Find the 8 Red Coins + 100c** (`bom_6.reds100c.49_10.m64`, 2026-10-09): 93 frames faster than the 52.20 and 6
   faster than the 49.30 (the older movies are in `archive/1-bob-omb-mountain/`; the 49.30's state is
   `archive/1-bob-omb-mountain/bom_6.49_30.st`). It clones the red coin star: Mario
@@ -227,7 +234,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | In the Wall | 16.97 | [sk_1.inthewall.16_97.m64](2-sky-kingdom/sk_1.inthewall.16_97.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | Listen to What the Bob-omb Has to Say to You | 10.23 | [sk_1.listen.10_23.m64](2-sky-kingdom/sk_1.listen.10_23.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | The Four Pillars | 19.6 | [sk_1.pillars.19_60.m64](2-sky-kingdom/sk_1.pillars.19_60.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
-| The 8 Red Coins Again + 100c | 77.6 | [sk_6.reds100c.77_60.m64](2-sky-kingdom/sk_6.reds100c.77_60.m64) | [sk_6.st](2-sky-kingdom/sk_6.st) |
+| The 8 Red Coins Again + 100c | 73.7 | [sk_2.reds100c.73_70.m64](2-sky-kingdom/sk_2.reds100c.73_70.m64) | [sk_2.st](2-sky-kingdom/sk_2.st) |
 | Burn the Big Bully | 15.83 | [lp_1.bully.15_83.m64](3-lava-plaza/lp_1.bully.15_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | In the Corner | 14.13 | [lp_1.corner.14_13.m64](3-lava-plaza/lp_1.corner.14_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | At the Top of the Volcano | 11.83 | [lp_1.volcano.11_83.m64](3-lava-plaza/lp_1.volcano.11_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
