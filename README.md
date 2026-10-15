@@ -35,12 +35,15 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 
 ## Notes
 
-- **At the Top of the Volcano** (Kieran, RsW): `lp_1.volcano.10_83.m64` (10.83, 2026-10-15) is 60 VIs (30 frames)
+- **At the Top of the Volcano** (Kieran, RsW): `lp_1.volcano.10_70.m64` (10.70, 2026-10-15) is 68 VIs (34 frames)
   faster than the 11.83. The older runs are in `archive/3-lava-plaza/`: the 11.83 (its author field says Toriku, an
-  artifact), the 10.97 and the 10.87. The 10.83 is the 10.87 one frame sooner: Mario walks out of the long jump landing
-  instead of turning around, then holds the stick forward through the dive, so the dive slide reaches the lava pool a
-  frame earlier. Its route:
-  - After the long jump landing: one walking frame, then a dive into the lava pool (a floor boost).
+  artifact), the 10.97, the 10.87 and the 10.83.
+  - The 10.70 uses the 8-direction camera only (no R presses).
+  - Kieran's hand-TASed opening replaces the old jump kick / double jump / dive grind with a long jump and one dive
+    from walking: one crouch slide frame before each long jump and one dive slide frame before each rollout.
+  - It reaches the lava pool 4 frames sooner than the 10.83; the boosts after it are the 10.83's, 4 frames earlier.
+  - The route from the pool:
+  - After the last long jump landing: one walking frame, then a dive into the lava pool (a floor boost).
   - Mario then touches the protrusion's lava wall at y 498 for a second boost, up the rim's outer face.
   - Near the face's top, the frame's last quarter step clears the wall it was hitting. The bonk then has no wall, so
     the boost turns 180 degrees and keeps its speed (fv 30).
@@ -265,7 +268,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | The 8 Red Coins Again + 100c | 73.57 | [sk_2.reds100c.73_57.m64](2-sky-kingdom/sk_2.reds100c.73_57.m64) | [sk_2.st](2-sky-kingdom/sk_2.st) |
 | Burn the Big Bully | 15.83 | [lp_1.bully.15_83.m64](3-lava-plaza/lp_1.bully.15_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | In the Corner | 14.13 | [lp_1.corner.14_13.m64](3-lava-plaza/lp_1.corner.14_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
-| At the Top of the Volcano | 10.83 | [lp_1.volcano.10_83.m64](3-lava-plaza/lp_1.volcano.10_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
+| At the Top of the Volcano | 10.7 | [lp_1.volcano.10_70.m64](3-lava-plaza/lp_1.volcano.10_70.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Mysterious "S" | 13.13 | [lp_1.mysterious_s.13_13.m64](3-lava-plaza/lp_1.mysterious_s.13_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Wooden Platform | 7.63 | [lp_1.platform.7_63.m64](3-lava-plaza/lp_1.platform.7_63.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | You Know What Red Coins + 100c | 48.9 | [lp_1.reds100c.48_90.m64](3-lava-plaza/lp_1.reds100c.48_90.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
