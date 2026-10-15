@@ -208,6 +208,8 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
   Bowser Stage is timed from SM64Lua's timer start to the first frame Mario's action is DISAPPEARED
   (entering the pipe, not the later level change); Throws from the timer's restart on the arena fade-in to
   the frame Mario enters DISAPPEARED from the Grand Star warp.
+  Since 2026-10-15 Throws has a freerun after Bowser's defeat (from sample 616); the Grand Star is touched on the
+  same frame (sample 1089, 36.30). The version without it is `archive/battle-of-the-hope/ba.throws.36_30.m64`.
 - **Hide in the Mountain → DSG** (`bom_5.mountain_dsg.17_43.m64`): the death star glitch, for the full-game TAS. Timed
   from the fade-in to the first frame of the death fade (sample 540), counting that frame (17.40 if the timer
   stops on it instead; DSG timing is a convention). Slower than the 14.60 on
