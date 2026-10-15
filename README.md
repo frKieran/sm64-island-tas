@@ -274,7 +274,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | The 8 Red Coins Again + 100c | 73.57 | [sk_2.reds100c.73_57.m64](2-sky-kingdom/sk_2.reds100c.73_57.m64) | [sk_2.st](2-sky-kingdom/sk_2.st) |
 | Burn the Big Bully | 15.83 | [lp_1.bully.15_83.m64](3-lava-plaza/lp_1.bully.15_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | In the Corner | 14.13 | [lp_1.corner.14_13.m64](3-lava-plaza/lp_1.corner.14_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
-| At the Top of the Volcano | 10.63 | [lp_1.volcano.10_63.m64](3-lava-plaza/lp_1.volcano.10_63.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
+| At the Top of the Volcano | 10.5 | [lp_1.volcano.10_50.m64](3-lava-plaza/lp_1.volcano.10_50.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Mysterious "S" | 13.13 | [lp_1.mysterious_s.13_13.m64](3-lava-plaza/lp_1.mysterious_s.13_13.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | The Wooden Platform | 7.63 | [lp_1.platform.7_63.m64](3-lava-plaza/lp_1.platform.7_63.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | You Know What Red Coins + 100c | 48.9 | [lp_1.reds100c.48_90.m64](3-lava-plaza/lp_1.reds100c.48_90.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
