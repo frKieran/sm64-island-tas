@@ -42,8 +42,17 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
   - Then the slab-vertex GWK into the King's platform and the fight.
   - Mupen-verified: Redux 1890 VIs. One neutral input was added at the end so the castle loads on the movie's last
     frame.
-- **The Four Pillars** (Kieran): `sk_1.pillars.19_10.m64` (19.10, 2026-10-15) is 18 VIs (9 frames) faster than the
-  19.40 and 30 VIs (15 frames) faster than the 19.60 (both in `archive/2-sky-kingdom/`). Identical to the 19.40 before
+- **The Four Pillars** (Kieran): `sk_1.pillars.19_03.m64` (19.03, 2026-10-16) is 4 VIs (2 frames) faster than the
+  19.10 (in `archive/2-sky-kingdom/`).
+  - Kieran's new corridor reaches the turnaround beside the tower 2 frames sooner: one long dive, a slide kick
+    and rollouts along the plateau instead of the 19.10's three dive cycles.
+  - From there the 19.10's climb runs 2 frames earlier: its sticks are re-aimed for this run's camera, and one
+    side-flip air stick (input 482) is turned 21° to shift Mario 2.6 units west. That puts the wall hit on the
+    19.10's exact spot.
+  - Box hit, grab and star dance exit on row 615. Mupen-verified: Redux 1142 VIs, the castle loads on the movie's
+    last frame.
+- **The Four Pillars, previous** (Kieran): `sk_1.pillars.19_10.m64` (19.10, 2026-10-15) is 18 VIs (9 frames) faster
+  than the 19.40 and 30 VIs (15 frames) faster than the 19.60 (both in `archive/2-sky-kingdom/`). Identical to the 19.40 before
   input 289 (the triple jump).
   - **The plateau:** the dive out of the triple jump on input 299 crosses the plateau's west wall while Mario is at
     y 68. In that window the lower wall check clears the wall's top and the floor is within reach, so the dive lands
@@ -354,7 +363,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | At the Other End of the Kingdom | 17.33 | [sk_1.otherend.17_33.m64](2-sky-kingdom/sk_1.otherend.17_33.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | In the Wall | 16.97 | [sk_1.inthewall.16_97.m64](2-sky-kingdom/sk_1.inthewall.16_97.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | Listen to What the Bob-omb Has to Say to You | 10.23 | [sk_1.listen.10_23.m64](2-sky-kingdom/sk_1.listen.10_23.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
-| The Four Pillars | 19.1 | [sk_1.pillars.19_10.m64](2-sky-kingdom/sk_1.pillars.19_10.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
+| The Four Pillars | 19.03 | [sk_1.pillars.19_03.m64](2-sky-kingdom/sk_1.pillars.19_03.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | The 8 Red Coins Again + 100c | 73.57 | [sk_2.reds100c.73_57.m64](2-sky-kingdom/sk_2.reds100c.73_57.m64) | [sk_2.st](2-sky-kingdom/sk_2.st) |
 | Burn the Big Bully | 15.63 | [lp_1.bully.15_63.m64](3-lava-plaza/lp_1.bully.15_63.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
 | In the Corner | 13.83 | [lp_1.corner.13_83.m64](3-lava-plaza/lp_1.corner.13_83.m64) | [lp_1.st](3-lava-plaza/lp_1.st) |
