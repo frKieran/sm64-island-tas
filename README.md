@@ -35,6 +35,13 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 
 ## Notes
 
+- **The Son of Whomp King** (Kieran, Toriku): `sk_1.whompking.31_50.m64` (31.50, recorded 2026-10-15, uploaded
+  2026-10-16) is 16 VIs (8 frames) faster than the 31.77 (in `archive/2-sky-kingdom/`).
+  - Kieran's new opening: a better crouch-slide angle sets up the pillar wall kick near the first red coin, and the
+    triple jump comes a frame earlier (the Four Pillars 19.40 and 19.10 share this start).
+  - Then the slab-vertex GWK into the King's platform and the fight.
+  - Mupen-verified: Redux 1890 VIs. One neutral input was added at the end so the castle loads on the movie's last
+    frame.
 - **The Four Pillars** (Kieran): `sk_1.pillars.19_10.m64` (19.10, 2026-10-15) is 18 VIs (9 frames) faster than the
   19.40 and 30 VIs (15 frames) faster than the 19.60 (both in `archive/2-sky-kingdom/`). Identical to the 19.40 before
   input 289 (the triple jump).
