@@ -359,7 +359,7 @@ with the `.st` named like its first part (`lp_1.bully.15_83.m64` plays from `lp_
 | Fly with Fly Guy | 18.13 | [bom_5.flyguy.18_13.m64](1-bob-omb-mountain/bom_5.flyguy.18_13.m64) | [bom_5.st](1-bob-omb-mountain/bom_5.st) |
 | The Locked Hole | 5.43 | [bom_5.locked.5_43.m64](1-bob-omb-mountain/bom_5.locked.5_43.m64) | [bom_5.st](1-bob-omb-mountain/bom_5.st) |
 | Find the 8 Red Coins + 100c | 49.1 | [bom_6.reds100c.49_10.m64](1-bob-omb-mountain/bom_6.reds100c.49_10.m64) | [bom_6.st](1-bob-omb-mountain/bom_6.st) |
-| The Son of Whomp King | 31.77 | [sk_1.whompking.31_77.m64](2-sky-kingdom/sk_1.whompking.31_77.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
+| The Son of Whomp King | 31.5 | [sk_1.whompking.31_50.m64](2-sky-kingdom/sk_1.whompking.31_50.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | At the Other End of the Kingdom | 17.33 | [sk_1.otherend.17_33.m64](2-sky-kingdom/sk_1.otherend.17_33.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | In the Wall | 16.97 | [sk_1.inthewall.16_97.m64](2-sky-kingdom/sk_1.inthewall.16_97.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
 | Listen to What the Bob-omb Has to Say to You | 10.23 | [sk_1.listen.10_23.m64](2-sky-kingdom/sk_1.listen.10_23.m64) | [sk_1.st](2-sky-kingdom/sk_1.st) |
